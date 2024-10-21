@@ -103,6 +103,13 @@ void print_result() {
 				c[i] += nthbit(correct, HAMMING_DECODING_LENGTH - 1 - i);
 			}
 			lcd_show_string_highlight(110, 260, 200, 16, 16, c, GREEN, error_index);
+
+            for(int i = 0; i < HAMMING_DECODING_LENGTH - HAMMING_ENCODING_MODE - 1; ++i) {
+                char a[5] = "P0 = 0";
+                a[1] += (1 << i);
+                a[5] += nthbit(result.syndrome, i);
+                lcd_show_string(20 + (i * 40), 270, 200, 16, 16, a, BLACK);
+            }
 		}
 	}
 }

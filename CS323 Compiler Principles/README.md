@@ -1,6 +1,6 @@
 # Compiler Principle (CS323)
 
-The course
+Tutorial of the dragon book, with labs and projects, including lexical analysis (NFA/DFA), syntax analysis (CFG), semantic analysis (AST), intermediate code generation (IR), optimization, and code generation (ASM).
 
 ## About
 
