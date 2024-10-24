@@ -257,10 +257,10 @@ __weak void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin){
 				}
 
 				// input 0
-				if (input_length < limit) input_data = input_data << 1;
+				if (input_length >= limit) break;
 
 				// constrain input when reach the input limit, refresh to input
-				input_length = input_length >= limit ? limit : input_length + 1;
+				input_length++;
 
 				// refresh specific zone
 				if (mode == HAMMING_ENCODING_MODE) fresh_origin();
@@ -280,10 +280,11 @@ __weak void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin){
 				}
 
 				// input 1
-				if (input_length < limit) input_data = input_data << 1 | 1;
+				if (input_length < limit) input_data |= (1 << (limit - input_length - 1));
+				else break;
 
 				// constrain input when reach the input limit, refresh to input
-				input_length = input_length >= limit ? limit : input_length + 1;
+				input_length++;
 
 				// refresh specific zone
 				if (mode == HAMMING_ENCODING_MODE) fresh_origin();

@@ -20,10 +20,12 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "string.h"
 #include "stm32f1xx_it.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "lcd.h"
+#include "usart.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -43,7 +45,9 @@
 
 /* Private variables ---------------------------------------------------------*/
 /* USER CODE BEGIN PV */
-
+uint8_t rxBuffer[20];
+char uRx_Data[1024] = {0};
+int uLength = 0;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -53,7 +57,11 @@
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
+void print_uart(char *s) {
+	for (int i = 0; i < strlen(s); ++i) {
+		HAL_UART_Transmit(&huart1, (uint8_t *)&s[i], 1, 0xffff);
+	}
+}
 /* USER CODE END 0 */
 
 /* External variables --------------------------------------------------------*/
@@ -238,7 +246,7 @@ void USART1_IRQHandler(void)
   /* USER CODE END USART1_IRQn 0 */
   HAL_UART_IRQHandler(&huart1);
   /* USER CODE BEGIN USART1_IRQn 1 */
-
+  HAL_UART_Receive_IT(&huart1, (uint8_t *) rxBuffer, 1);
   /* USER CODE END USART1_IRQn 1 */
 }
 
@@ -262,26 +270,31 @@ __weak void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin){
 	switch (GPIO_Pin) {
 		case KEY0_Pin:
 			if (HAL_GPIO_ReadPin(KEY0_GPIO_Port, KEY0_Pin) == GPIO_PIN_RESET) {
-				  lcd_clear(WHITE);
-				  g_back_color = WHITE;
-				  lcd_show_string(30, 40, 200, 12, 12, "KEY0 is pressed", BLACK);
+				print_uart("KEY0 is pressed\r\n");
 			}
 			break;
 		case KEY1_Pin:
 			if (HAL_GPIO_ReadPin(KEY1_GPIO_Port, KEY1_Pin) == GPIO_PIN_RESET) {
-				  lcd_clear(WHITE);
-				  g_back_color = WHITE;
-				  lcd_show_string(30, 40, 200, 12, 12, "KEY1 is pressed", BLACK);
-			}
-			break;
-		case WK_UP_Pin:
-			if (HAL_GPIO_ReadPin(WK_UP_GPIO_Port, WK_UP_Pin) == GPIO_PIN_SET) {
-				  lcd_clear(WHITE);
-				  g_back_color = WHITE;
-				  lcd_show_string(30, 40, 200, 12, 12, "KEY_WAKEUP is pressed", BLACK);
+				print_uart("KEY1 is pressed\r\n");
 			}
 			break;
 		default: break;
+	}
+}
+
+__weak void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart) {
+	if(huart->Instance == USART1){
+		HAL_GPIO_WritePin(LED1_GPIO_Port, LED1_Pin, GPIO_PIN_RESET);
+		if (rxBuffer[0] == '\r' || rxBuffer[0] == '\n') {
+			HAL_GPIO_WritePin(LED1_GPIO_Port, LED1_Pin, GPIO_PIN_SET);
+			lcd_clear(WHITE);
+			g_back_color = WHITE;
+			lcd_show_string(30, 40, 200, 16, 16, uRx_Data, BLACK);
+			memset(uRx_Data, 0, uLength);
+			uLength = 0;
+		} else {
+			uRx_Data[uLength++] = rxBuffer[0];
+		}
 	}
 }
 /* USER CODE END 1 */

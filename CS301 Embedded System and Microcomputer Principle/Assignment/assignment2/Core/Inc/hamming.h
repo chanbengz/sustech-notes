@@ -19,6 +19,7 @@ extern uint32_t input_length;
 #define HAMMING_DECODING_MODE 1
 #define HAMMING_ENCODING_LENGTH 4
 #define HAMMING_DECODING_LENGTH 8
+#define HAMMING_PARITY_BITS (HAMMING_DECODING_LENGTH - HAMMING_ENCODING_LENGTH)
 #define HAMMING_R 4
 
 #define nthbit(bits, n) ((bits >> (n)) & 0x1)

@@ -10,4 +10,4 @@
 ../Core/Src/stm32f1xx_it.c:206:6:EXTI0_IRQHandler	1
 ../Core/Src/stm32f1xx_it.c:220:6:EXTI9_5_IRQHandler	1
 ../Core/Src/stm32f1xx_it.c:234:6:EXTI15_10_IRQHandler	1
-../Core/Src/stm32f1xx_it.c:246:13:HAL_GPIO_EXTI_Callback	20
+../Core/Src/stm32f1xx_it.c:246:13:HAL_GPIO_EXTI_Callback	18

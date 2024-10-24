@@ -21,6 +21,7 @@
 #include "main.h"
 #include "usart.h"
 #include "gpio.h"
+#include "lcd.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -55,7 +56,7 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
+extern char rxBuffer[20];
 /* USER CODE END 0 */
 
 /**
@@ -88,7 +89,8 @@ int main(void)
   MX_GPIO_Init();
   MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
-
+  lcd_init();
+  HAL_UART_Receive_IT(&huart1, (uint8_t *) rxBuffer, 1);
   /* USER CODE END 2 */
 
   /* Infinite loop */

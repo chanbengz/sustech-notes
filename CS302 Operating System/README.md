@@ -17,6 +17,7 @@ The course introduces the concepts of operating system and adapts the [uCore](ht
 
 | Lecture | Topic | Content |
 | ---- | ----- | ------- |
+| 1 | Introduction | Introduction to Operating System |
 
 ### Labs
 

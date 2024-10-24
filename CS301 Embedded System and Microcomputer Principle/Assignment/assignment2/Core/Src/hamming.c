@@ -19,10 +19,10 @@ uint32_t input_length = 0;
 void fresh_origin() {
 	char p[HAMMING_ENCODING_LENGTH + 1] = "0000";
 	for(int i = 0; i < HAMMING_ENCODING_LENGTH; ++i) {
-		if (i < HAMMING_ENCODING_LENGTH - input_length) {
-			p[i] = ' ';
-		} else {
+		if (i < input_length) {
 			p[i] += nthbit(input_data, HAMMING_ENCODING_LENGTH - 1 - i);
+		} else {
+			p[i] = ' ';
 		}
 	}
 	lcd_show_string(20, 85, 200, 24, 24, p, BLACK);
@@ -34,10 +34,10 @@ void fresh_origin() {
 void fresh_hamming() {
 	char p[HAMMING_DECODING_LENGTH + 1] = "00000000";
 	for(int i = 0; i < HAMMING_DECODING_LENGTH; ++i) {
-		if (i < HAMMING_DECODING_LENGTH - input_length) {
-			p[i] = ' ';
-		} else {
+		if (i < input_length) {
 			p[i] += nthbit(input_data, HAMMING_DECODING_LENGTH - 1 - i);
+		} else {
+			p[i] = ' ';
 		}
 	}
 	lcd_show_string(20, 150, 200, 24, 24, p, BLACK);
@@ -77,39 +77,44 @@ void print_result() {
 			lcd_show_string(20, 250, 200, 16, 16, "No errors", BLACK);
 		} else {
 			// decide number of errors
-			 if (nthbit(result.syndrome, HAMMING_DECODING_LENGTH - HAMMING_ENCODING_LENGTH - 1)) {
-				lcd_show_string(20, 220, 200, 12, 12, "2 errors occur, P = ", BLACK);
+			 if (!nthbit(result.syndrome, HAMMING_PARITY_BITS - 1)) {
+				lcd_show_string(20, 211, 200, 24, 24, "2", BLACK);
+				lcd_show_string(32, 217, 200, 16, 16, " errors occur, P = ", BLACK);
 			} else {
-				lcd_show_string(20, 220, 200, 12, 12, "1 error occurs, P = ", BLACK);
+				lcd_show_string(20, 211, 200, 24, 24, "1", BLACK);
+				lcd_show_string(32, 217, 200, 16, 16, " error occurs, P = ", BLACK);
 			}
 
 			// index of error bit
-			char p[2] = "0"; p[0] += result.syndrome & ((1 << (HAMMING_DECODING_LENGTH - HAMMING_ENCODING_LENGTH - 1)) - 1);
-			lcd_show_string(140, 217, 200, 16, 16, p, BLACK);
+			char p[2] = "0"; p[0] += result.syndrome & ((1 << (HAMMING_PARITY_BITS - 1)) - 1);
+			lcd_show_string(178, 211, 200, 24, 24, p, BLACK);
 
 			// print difference to indicate the correction
-			uint32_t error_index = result.syndrome & ((1 << (HAMMING_DECODING_LENGTH - HAMMING_ENCODING_LENGTH - 1)) - 1);
-			lcd_show_string(20, 240, 200, 16, 16, "Corrupted: ", BLACK);
+			uint32_t error_index = result.syndrome & ((1 << (HAMMING_PARITY_BITS - 1)) - 1);
+			lcd_show_string(20, 235, 200, 16, 16, "Corrupted: ", BLACK);
 			char d[HAMMING_DECODING_LENGTH + 1] = "00000000";
 			for(int i = 0; i < HAMMING_DECODING_LENGTH; ++i) {
 				d[i] += nthbit(input_data, HAMMING_DECODING_LENGTH - 1 - i);
 			}
-			lcd_show_string_highlight(110, 240, 200, 16, 16, d, RED, error_index);
+			lcd_show_string_highlight(110, 235, 200, 16, 16, d, RED, error_index);
 
-			lcd_show_string(20, 260, 200, 16, 16, "Corrected: ", BLACK);
+			lcd_show_string(20, 255, 200, 16, 16, "Corrected: ", BLACK);
 			uint32_t correct = input_data ^= 1 << (HAMMING_DECODING_LENGTH - 1 - error_index);
 			char c[HAMMING_DECODING_LENGTH + 1] = "00000000";
 			for(int i = 0; i < HAMMING_DECODING_LENGTH; ++i) {
 				c[i] += nthbit(correct, HAMMING_DECODING_LENGTH - 1 - i);
 			}
-			lcd_show_string_highlight(110, 260, 200, 16, 16, c, GREEN, error_index);
+			lcd_show_string_highlight(110, 255, 200, 16, 16, c, GREEN, error_index);
 
-            for(int i = 0; i < HAMMING_DECODING_LENGTH - HAMMING_ENCODING_MODE - 1; ++i) {
-                char a[5] = "P0 = 0";
-                a[1] += (1 << i);
-                a[5] += nthbit(result.syndrome, i);
-                lcd_show_string(20 + (i * 40), 270, 200, 16, 16, a, BLACK);
+			lcd_show_string(20, 275, 200, 16, 16, "P4P2P1 = ", BLACK);
+            for(int i = 0; i < HAMMING_PARITY_BITS - 1; ++i) {
+                char a[2] = "0";
+                a[0] += nthbit(result.syndrome, i);
+                lcd_show_string(108 - (8 * i), 275, 200, 16, 16, a, BLACK);
             }
+            char f[7] = "PP = 0";
+            f[5] += nthbit(result.syndrome, HAMMING_PARITY_BITS - 1);
+            lcd_show_string(135, 275, 200, 16, 16, f, BLACK);
 		}
 	}
 }
@@ -236,6 +241,10 @@ decode_result decode() {
     result.syndrome = get_parity(xor, y);
     result.result = data;
 
+    if (result.syndrome == (1 << (HAMMING_PARITY_BITS - 1))) {
+    	return result;
+    }
+
     if (result.syndrome != 0) {
         uint32_t old_input = input_data;
         if (result.syndrome != (1 << y))
@@ -246,8 +255,8 @@ decode_result decode() {
             parity ^= nthbit(old_input, i);
         }
 
-        if (parity) result.syndrome |= 1 << y;
-        else result.syndrome &= (1 << (HAMMING_DECODING_LENGTH - HAMMING_ENCODING_LENGTH - 1)) - 1;
+        if (parity) result.syndrome &= (1 << (HAMMING_PARITY_BITS - 1)) - 1;
+        else result.syndrome |= 1 << y;
 
         data = 0;
         for(int i = 0; i < x; ++i) {

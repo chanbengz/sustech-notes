@@ -1,9 +1,9 @@
 ../Core/Src/hamming.c:19:6:fresh_origin	3
 ../Core/Src/hamming.c:34:6:fresh_hamming	3
-../Core/Src/hamming.c:49:6:print_result	9
-../Core/Src/hamming.c:113:6:print_screen	3
-../Core/Src/hamming.c:135:10:is_parity	3
-../Core/Src/hamming.c:143:10:flip_bit	2
-../Core/Src/hamming.c:158:10:encode	7
-../Core/Src/hamming.c:197:10:get_parity	2
-../Core/Src/hamming.c:214:15:decode	8
+../Core/Src/hamming.c:49:6:print_result	10
+../Core/Src/hamming.c:125:6:print_screen	3
+../Core/Src/hamming.c:147:10:is_parity	3
+../Core/Src/hamming.c:155:10:flip_bit	2
+../Core/Src/hamming.c:170:10:encode	7
+../Core/Src/hamming.c:209:10:get_parity	2
+../Core/Src/hamming.c:226:15:decode	9
