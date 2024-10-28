@@ -1,0 +1,28 @@
+server:
+  port: 8082
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/backendproject
+    username:
+    password: 
+
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/spring_project?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=GMT
+#    username: root
+#    password: 123456
+
+  jpa:
+#    database-platform: org.hibernate.dialect.HSQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        temp:
+          use_jdbc_metadata_defaults: false
+spring.mvc.static-path-pattern: /**
+spring.resources.static-locations: classpath:/META-INF/resources/, classpath:/resources/,classpath:/static/,classpath:/public/
+
+
