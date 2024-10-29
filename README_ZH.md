@@ -1,10 +1,10 @@
 <div align="center">
 
-# SUSTech_CS_Notes
+# SUSTech Computer Science Notes
 
 南方科技大学计算机科学与技术专业课程资料
 
-:book: 语言: <a href="https://github.com/chanbengz/SUSTech_CS_Notes/blob/master/README.md">English</a> • <a href="https://github.com/chanbengz/SUSTech_CS_Notes/blob/main/README_ZH.md">中文</a> 
+:book: 语言: <a href="https://github.com/chanbengz/sustech-notes/blob/master/README.md">English</a> • <a href="https://github.com/chanbengz/sustech-notes/blob/main/README_ZH.md">中文</a> 
 
 </div>
 
@@ -12,7 +12,7 @@
 
 :laughing: 欢迎来到这个项目 :)
 
-我叫陈贲，现在是计算机系的大三学生。这个项目收集了我上过的每一门专业课或其他相关课的课程资料，其中包括的一些作业答案可能有错误或写得不清楚，如果理解过程中有问题，欢迎给我发邮件 `chanben04gz [AT] gmail [DOT] com` 或直接提Issue，也欢迎在PR为本仓库贡献你的资料！
+这个仓库收集了我上过的每一门专业课或其他相关课的课程资料，其中包括的一些作业答案可能有错误或写得不清楚，如果理解过程中有问题，欢迎给我发邮件 `chanben04gz [AT] gmail [DOT] com` 或直接提Issue，也欢迎在PR为本仓库贡献你的资料！
 
 > [!NOTE] 
 > 由于本人对系统和安全比较感兴趣，我并不打算选人工智能相关的选修课，如智能机器人(CS401)，机器学习(CS405)等。 请参考其他同学的仓库。
@@ -57,21 +57,10 @@
 
 > [!NOTE] 
 >
-> 如果想下载特定的课程或文件夹, 可以使用 [Downgit](https://downgit.benx.dev)
+> 如果想下载特定课程的文件夹, 可以使用 [Downgit](https://downgit.benx.dev)
 
-本项目只提供资料，具体怎么学还得看自己。一点小建议，你可以用本项目预习下学期的课程，对下学期内容有个大概的理解，如果你学得快的话甚至可以全部自学完。也可以检查自己的作业是否正确(有些课程的作业是祖传的)。或者可以复习和准备期中/期末考试。注意
-
-### DON'T
-- 不要不听课，即使你都学会了。因为有些教授会提到某些课件上没有的细节，并出在期末考试之中 ~~(至于为什么，只能说教授可能忘了)~~
-- 不要为考试而学习，要为知识而学习。如果你不学不会考的，那你可能什么都没学到。
-- 不要直接抄本项目的答案。虽然有些lab/作业会很难，但这些是学习计算机的重要环节 (学计算机最重要的是边玩边学)
-
-### DO
-- 推荐多去探索计算机的世界，就算与课程无关。你将会从中学到很多东西。比如用Linux作为主力系统，并跟随 [LFS](https://www.linuxfromscratch.org/) 的教程配置自己的系统。
-- 问好问题。计算机学生最重要的一个素质是搜索和自己解决问题的能力。只有当你真的无法靠自己解决的时候，才能清楚表达问题。
-- 多关注艺术。不是开玩笑，艺术不仅仅是为了陶冶情操，更是为了提高代码质量，特别是当你成为一个大型项目的负责人的时候。而且艺术可能为你带来灵感。
+本项目只提供资料，具体怎么学还得看自己。一点小建议，你可以用本项目预习下学期的课程, 对下学期内容有个大概的理解, 学得快的话甚至可以全部自学完。也可以检查自己的作业是否正确(有些课程的作业是祖传的)。或者可以复习和准备期中/期末考试。
 
 ## 贡献
 
 非常欢迎你为本项目贡献! 请阅读 [CONTRIBUTING.md](./CONTRIBUTING.md) 了解如何贡献。
-
