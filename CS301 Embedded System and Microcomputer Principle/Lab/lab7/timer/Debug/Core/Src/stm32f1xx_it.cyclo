@@ -1,0 +1,15 @@
+../Core/Src/stm32f1xx_it.c:72:6:NMI_Handler	1
+../Core/Src/stm32f1xx_it.c:87:6:HardFault_Handler	1
+../Core/Src/stm32f1xx_it.c:102:6:MemManage_Handler	1
+../Core/Src/stm32f1xx_it.c:117:6:BusFault_Handler	1
+../Core/Src/stm32f1xx_it.c:132:6:UsageFault_Handler	1
+../Core/Src/stm32f1xx_it.c:147:6:SVC_Handler	1
+../Core/Src/stm32f1xx_it.c:160:6:DebugMon_Handler	1
+../Core/Src/stm32f1xx_it.c:173:6:PendSV_Handler	1
+../Core/Src/stm32f1xx_it.c:186:6:SysTick_Handler	1
+../Core/Src/stm32f1xx_it.c:207:6:EXTI0_IRQHandler	1
+../Core/Src/stm32f1xx_it.c:221:6:EXTI9_5_IRQHandler	1
+../Core/Src/stm32f1xx_it.c:235:6:TIM3_IRQHandler	1
+../Core/Src/stm32f1xx_it.c:249:6:EXTI15_10_IRQHandler	1
+../Core/Src/stm32f1xx_it.c:261:13:HAL_GPIO_EXTI_Callback	3
+../Core/Src/stm32f1xx_it.c:275:13:HAL_TIM_PeriodElapsedCallback	1
