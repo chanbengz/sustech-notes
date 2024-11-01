@@ -146,7 +146,7 @@
     inset: 8pt,
     radius: 2pt,
     width: 100%,
-  )[*Problem #problem-counter.display().* #h(0.75em) #body]
+  )[*Problem #context problem-counter.display().* #h(0.75em) #body]
 }
 
 #let solution(body) = {
