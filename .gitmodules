@@ -22,3 +22,6 @@
 [submodule "CS309 Object-Oriented Analysis and Design/Project"]
 	path = CS309 Object-Oriented Analysis and Design/Project
 	url = git@github.com:SUSTech-NINJA/ninja.git
+[submodule "CS323 Compiler Principles/Lab/official-repo"]
+	path = CS323 Compiler Principles/Lab/official-repo
+	url = https://github.com/sqlab-sustech/CS323-2024F
