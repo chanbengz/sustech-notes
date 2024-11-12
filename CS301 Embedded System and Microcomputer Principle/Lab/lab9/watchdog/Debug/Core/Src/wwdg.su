@@ -1,0 +1,2 @@
+../Core/Src/wwdg.c:30:6:MX_WWDG_Init	8	static
+../Core/Src/wwdg.c:55:6:HAL_WWDG_MspInit	24	static
