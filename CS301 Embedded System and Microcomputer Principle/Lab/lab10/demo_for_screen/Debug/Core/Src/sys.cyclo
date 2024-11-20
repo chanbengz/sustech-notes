@@ -1,0 +1,4 @@
+../Core/Src/sys.c:19:6:Stm32_Clock_Init	3
+../Core/Src/sys.c:59:6:WFI_SET	1
+../Core/Src/sys.c:64:6:INTX_DISABLE	1
+../Core/Src/sys.c:69:6:INTX_ENABLE	1

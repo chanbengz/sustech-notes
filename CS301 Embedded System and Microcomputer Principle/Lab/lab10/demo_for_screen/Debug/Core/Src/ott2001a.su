@@ -1,0 +1,5 @@
+../Core/Src/ott2001a.c:27:4:OTT2001A_WR_Reg	24	static
+../Core/Src/ott2001a.c:51:6:OTT2001A_RD_Reg	32	static
+../Core/Src/ott2001a.c:72:6:OTT2001A_SensorControl	24	static
+../Core/Src/ott2001a.c:80:4:OTT2001A_Init	32	static
+../Core/Src/ott2001a.c:114:4:OTT2001A_Scan	32	static

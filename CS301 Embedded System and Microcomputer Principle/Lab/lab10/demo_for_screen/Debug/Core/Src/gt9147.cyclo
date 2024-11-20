@@ -1,0 +1,5 @@
+../Core/Src/gt9147.c:53:4:GT9147_Send_Cfg	2
+../Core/Src/gt9147.c:70:4:GT9147_WR_Reg	3
+../Core/Src/gt9147.c:94:6:GT9147_RD_Reg	2
+../Core/Src/gt9147.c:115:4:GT9147_Init	3
+../Core/Src/gt9147.c:170:4:GT9147_Scan	16

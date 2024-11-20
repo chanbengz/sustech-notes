@@ -1,0 +1,11 @@
+../Core/Src/24l01.c:21:6:NRF24L01_SPI_Init	8	static
+../Core/Src/24l01.c:31:6:NRF24L01_Init	32	static
+../Core/Src/24l01.c:65:4:NRF24L01_Check	16	static
+../Core/Src/24l01.c:79:4:NRF24L01_Write_Reg	24	static
+../Core/Src/24l01.c:90:4:NRF24L01_Read_Reg	24	static
+../Core/Src/24l01.c:104:4:NRF24L01_Read_Buf	32	static
+../Core/Src/24l01.c:118:4:NRF24L01_Write_Buf	24	static
+../Core/Src/24l01.c:130:4:NRF24L01_TxPacket	24	static
+../Core/Src/24l01.c:154:4:NRF24L01_RxPacket	24	static
+../Core/Src/24l01.c:171:6:NRF24L01_RX_Mode	16	static
+../Core/Src/24l01.c:189:6:NRF24L01_TX_Mode	16	static

@@ -1,0 +1,16 @@
+../Core/Src/main.c:3979:6:Load_Drow_Dialog	24	static
+../Core/Src/main.c:3990:6:gui_draw_hline	32	static
+../Core/Src/main.c:3999:6:gui_fill_circle	40	static
+../Core/Src/main.c:4025:5:my_abs	16	static
+../Core/Src/main.c:4035:6:screen_print	24	static
+../Core/Src/main.c:4045:6:screen_norm_print	24	static
+../Core/Src/main.c:4054:6:change_state	8	static
+../Core/Src/main.c:4064:6:lcd_draw_bline	64	static
+../Core/Src/main.c:4103:6:rtp_test	24	static
+../Core/Src/main.c:4149:6:ctp_test	48	static
+../Core/Src/main.c:4215:5:main	24	static
+../Core/Src/main.c:4277:6:SystemClock_Config	72	static
+../Core/Src/main.c:4317:13:MX_SPI1_Init	8	static
+../Core/Src/main.c:4355:13:MX_USART1_UART_Init	8	static
+../Core/Src/main.c:4388:13:MX_GPIO_Init	16	static
+../Core/Src/main.c:4405:6:Error_Handler	4	static,ignoring_inline_asm
