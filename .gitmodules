@@ -25,3 +25,6 @@
 [submodule "CS323 Compiler Principles/Lab/official-repo"]
 	path = CS323 Compiler Principles/Lab/official-repo
 	url = https://github.com/sqlab-sustech/CS323-2024F
+[submodule "CS301 Embedded System and Microcomputer Principle/Project"]
+	path = CS301 Embedded System and Microcomputer Principle/Project
+	url = git@github.com:SUSTech-ISACG-Association/ShinxSU7.git
