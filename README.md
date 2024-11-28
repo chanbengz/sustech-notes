@@ -10,8 +10,6 @@ Course Notes and Materials for the Computer Science @SUSTech.
 
 ## Intro
 
-:laughing: Welcome to my humble repo :)
-
 The repo records my every notes, materials and codes of the courses that I've taken seriously. I might not express my solutions well so if you have problems understanding my writing, please feel free to raise an Issue or drop me a email via `chanben04gz [AT] gmail [DOT] com`. It's much appreciated if you'd like to contribute to this repo.
 
 > [!NOTE] 
