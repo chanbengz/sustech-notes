@@ -1,11 +1,11 @@
-site_name: SUSTech_CS_Notes
+site_name: SUSTech CS Notes
 site_url: https://csnotes.benx.dev
 site_author: Ben Chen
 site_description:
   Course Notes for the Computer Science @SUSTech.
 
-repo_name: chanbengz/SUSTech_CS_Notes
-repo_url: https://github.com/chanbengz/SUSTech_CS_Notes
+repo_name: chanbengz/sustech-notes
+repo_url: https://github.com/chanbengz/sustech-notes
 edit_uri: blob/main/docs/
 
 copyright: Copyright &copy; 2023 - 2024 Ben Chen
