@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://csnotes.benx.dev/</loc>
+        <lastmod>2024-12-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://csnotes.benx.dev/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://csnotes.benx.dev/zh/"/>
+    </url>
+    <url>
+        <loc>https://csnotes.benx.dev/basis/CS109/</loc>
+        <lastmod>2024-12-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://csnotes.benx.dev/basis/CS109/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://csnotes.benx.dev/zh/basis/CS109/"/>
+    </url>
+    <url>
+        <loc>https://csnotes.benx.dev/basis/CS201/</loc>
+        <lastmod>2024-12-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://csnotes.benx.dev/basis/CS201/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://csnotes.benx.dev/zh/basis/CS201/"/>
+    </url>
+    <url>
+        <loc>https://csnotes.benx.dev/basis/CS202/</loc>
+        <lastmod>2024-12-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://csnotes.benx.dev/basis/CS202/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://csnotes.benx.dev/zh/basis/CS202/"/>
+    </url>
+    <url>
+        <loc>https://csnotes.benx.dev/basis/CS203/</loc>
+        <lastmod>2024-12-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://csnotes.benx.dev/basis/CS203/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://csnotes.benx.dev/zh/basis/CS203/"/>
+    </url>
+    <url>
+        <loc>https://csnotes.benx.dev/basis/CS207/</loc>
+        <lastmod>2024-12-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://csnotes.benx.dev/basis/CS207/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://csnotes.benx.dev/zh/basis/CS207/"/>
+    </url>
+    <url>
+        <loc>https://csnotes.benx.dev/basis/CS208/</loc>
+        <lastmod>2024-12-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://csnotes.benx.dev/basis/CS208/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://csnotes.benx.dev/zh/basis/CS208/"/>
+    </url>
+    <url>
+        <loc>https://csnotes.benx.dev/basis/CS307/</loc>
+        <lastmod>2024-12-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://csnotes.benx.dev/basis/CS307/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://csnotes.benx.dev/zh/basis/CS307/"/>
+    </url>
+    <url>
+        <loc>https://csnotes.benx.dev/core/CS302/</loc>
+        <lastmod>2024-12-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://csnotes.benx.dev/core/CS302/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://csnotes.benx.dev/zh/core/CS302/"/>
+    </url>
+    <url>
+        <loc>https://csnotes.benx.dev/core/CS303/</loc>
+        <lastmod>2024-12-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://csnotes.benx.dev/core/CS303/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://csnotes.benx.dev/zh/core/CS303/"/>
+    </url>
+    <url>
+        <loc>https://csnotes.benx.dev/core/CS305/</loc>
+        <lastmod>2024-12-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://csnotes.benx.dev/core/CS305/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://csnotes.benx.dev/zh/core/CS305/"/>
+    </url>
+    <url>
+        <loc>https://csnotes.benx.dev/core/CS321/</loc>
+        <lastmod>2024-12-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://csnotes.benx.dev/core/CS321/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://csnotes.benx.dev/zh/core/CS321/"/>
+    </url>
+    <url>
+        <loc>https://csnotes.benx.dev/elective/CS104/</loc>
+        <lastmod>2024-12-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://csnotes.benx.dev/elective/CS104/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://csnotes.benx.dev/zh/elective/CS104/"/>
+    </url>
+    <url>
+        <loc>https://csnotes.benx.dev/elective/CS301/</loc>
+        <lastmod>2024-12-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://csnotes.benx.dev/elective/CS301/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://csnotes.benx.dev/zh/elective/CS301/"/>
+    </url>
+    <url>
+        <loc>https://csnotes.benx.dev/elective/CS309/</loc>
+        <lastmod>2024-12-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://csnotes.benx.dev/elective/CS309/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://csnotes.benx.dev/zh/elective/CS309/"/>
+    </url>
+    <url>
+        <loc>https://csnotes.benx.dev/elective/CS323/</loc>
+        <lastmod>2024-12-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://csnotes.benx.dev/elective/CS323/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://csnotes.benx.dev/zh/elective/CS323/"/>
+    </url>
+    <url>
+        <loc>https://csnotes.benx.dev/elective/CSE5014/</loc>
+        <lastmod>2024-12-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://csnotes.benx.dev/elective/CSE5014/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://csnotes.benx.dev/zh/elective/CSE5014/"/>
+    </url>
+    <url>
+        <loc>https://csnotes.benx.dev/other/SS149/</loc>
+        <lastmod>2024-12-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://csnotes.benx.dev/other/SS149/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://csnotes.benx.dev/zh/other/SS149/"/>
+    </url>
+    <url>
+        <loc>https://csnotes.benx.dev/other/SWS/</loc>
+        <lastmod>2024-12-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://csnotes.benx.dev/other/SWS/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://csnotes.benx.dev/zh/other/SWS/"/>
+    </url>
+    <url>
+        <loc>https://csnotes.benx.dev/tools/docker/</loc>
+        <lastmod>2024-12-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://csnotes.benx.dev/tools/docker/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://csnotes.benx.dev/zh/tools/docker/"/>
+    </url>
+    <url>
+        <loc>https://csnotes.benx.dev/tools/git/</loc>
+        <lastmod>2024-12-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://csnotes.benx.dev/tools/git/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://csnotes.benx.dev/zh/tools/git/"/>
+    </url>
+    <url>
+        <loc>https://csnotes.benx.dev/tools/latex/</loc>
+        <lastmod>2024-12-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://csnotes.benx.dev/tools/latex/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://csnotes.benx.dev/zh/tools/latex/"/>
+    </url>
+    <url>
+        <loc>https://csnotes.benx.dev/tools/linux/</loc>
+        <lastmod>2024-12-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://csnotes.benx.dev/tools/linux/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://csnotes.benx.dev/zh/tools/linux/"/>
+    </url>
+    <url>
+        <loc>https://csnotes.benx.dev/tools/markdown/</loc>
+        <lastmod>2024-12-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://csnotes.benx.dev/tools/markdown/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://csnotes.benx.dev/zh/tools/markdown/"/>
+    </url>
+    <url>
+        <loc>https://csnotes.benx.dev/tools/vim/</loc>
+        <lastmod>2024-12-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://csnotes.benx.dev/tools/vim/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://csnotes.benx.dev/zh/tools/vim/"/>
+    </url>
+    <url>
+        <loc>https://csnotes.benx.dev/zh/</loc>
+        <lastmod>2024-12-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://csnotes.benx.dev/zh/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://csnotes.benx.dev/"/>
+    </url>
+    <url>
+        <loc>https://csnotes.benx.dev/zh/basis/CS109/</loc>
+        <lastmod>2024-12-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://csnotes.benx.dev/zh/basis/CS109/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://csnotes.benx.dev/basis/CS109/"/>
+    </url>
+    <url>
+        <loc>https://csnotes.benx.dev/zh/basis/CS201/</loc>
+        <lastmod>2024-12-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://csnotes.benx.dev/zh/basis/CS201/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://csnotes.benx.dev/basis/CS201/"/>
+    </url>
+    <url>
+        <loc>https://csnotes.benx.dev/zh/basis/CS202/</loc>
+        <lastmod>2024-12-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://csnotes.benx.dev/zh/basis/CS202/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://csnotes.benx.dev/basis/CS202/"/>
+    </url>
+    <url>
+        <loc>https://csnotes.benx.dev/zh/basis/CS203/</loc>
+        <lastmod>2024-12-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://csnotes.benx.dev/zh/basis/CS203/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://csnotes.benx.dev/basis/CS203/"/>
+    </url>
+    <url>
+        <loc>https://csnotes.benx.dev/zh/basis/CS207/</loc>
+        <lastmod>2024-12-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://csnotes.benx.dev/zh/basis/CS207/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://csnotes.benx.dev/basis/CS207/"/>
+    </url>
+    <url>
+        <loc>https://csnotes.benx.dev/zh/basis/CS208/</loc>
+        <lastmod>2024-12-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://csnotes.benx.dev/zh/basis/CS208/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://csnotes.benx.dev/basis/CS208/"/>
+    </url>
+    <url>
+        <loc>https://csnotes.benx.dev/zh/basis/CS307/</loc>
+        <lastmod>2024-12-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://csnotes.benx.dev/zh/basis/CS307/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://csnotes.benx.dev/basis/CS307/"/>
+    </url>
+    <url>
+        <loc>https://csnotes.benx.dev/zh/core/CS302/</loc>
+        <lastmod>2024-12-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://csnotes.benx.dev/zh/core/CS302/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://csnotes.benx.dev/core/CS302/"/>
+    </url>
+    <url>
+        <loc>https://csnotes.benx.dev/zh/core/CS303/</loc>
+        <lastmod>2024-12-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://csnotes.benx.dev/zh/core/CS303/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://csnotes.benx.dev/core/CS303/"/>
+    </url>
+    <url>
+        <loc>https://csnotes.benx.dev/zh/core/CS305/</loc>
+        <lastmod>2024-12-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://csnotes.benx.dev/zh/core/CS305/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://csnotes.benx.dev/core/CS305/"/>
+    </url>
+    <url>
+        <loc>https://csnotes.benx.dev/zh/core/CS321/</loc>
+        <lastmod>2024-12-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://csnotes.benx.dev/zh/core/CS321/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://csnotes.benx.dev/core/CS321/"/>
+    </url>
+    <url>
+        <loc>https://csnotes.benx.dev/zh/elective/CS104/</loc>
+        <lastmod>2024-12-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://csnotes.benx.dev/zh/elective/CS104/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://csnotes.benx.dev/elective/CS104/"/>
+    </url>
+    <url>
+        <loc>https://csnotes.benx.dev/zh/elective/CS301/</loc>
+        <lastmod>2024-12-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://csnotes.benx.dev/zh/elective/CS301/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://csnotes.benx.dev/elective/CS301/"/>
+    </url>
+    <url>
+        <loc>https://csnotes.benx.dev/zh/elective/CS309/</loc>
+        <lastmod>2024-12-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://csnotes.benx.dev/zh/elective/CS309/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://csnotes.benx.dev/elective/CS309/"/>
+    </url>
+    <url>
+        <loc>https://csnotes.benx.dev/zh/elective/CS323/</loc>
+        <lastmod>2024-12-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://csnotes.benx.dev/zh/elective/CS323/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://csnotes.benx.dev/elective/CS323/"/>
+    </url>
+    <url>
+        <loc>https://csnotes.benx.dev/zh/elective/CSE5014/</loc>
+        <lastmod>2024-12-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://csnotes.benx.dev/zh/elective/CSE5014/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://csnotes.benx.dev/elective/CSE5014/"/>
+    </url>
+    <url>
+        <loc>https://csnotes.benx.dev/zh/other/SS149/</loc>
+        <lastmod>2024-12-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://csnotes.benx.dev/zh/other/SS149/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://csnotes.benx.dev/other/SS149/"/>
+    </url>
+    <url>
+        <loc>https://csnotes.benx.dev/zh/other/SWS/</loc>
+        <lastmod>2024-12-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://csnotes.benx.dev/zh/other/SWS/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://csnotes.benx.dev/other/SWS/"/>
+    </url>
+    <url>
+        <loc>https://csnotes.benx.dev/zh/tools/docker/</loc>
+        <lastmod>2024-12-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://csnotes.benx.dev/zh/tools/docker/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://csnotes.benx.dev/tools/docker/"/>
+    </url>
+    <url>
+        <loc>https://csnotes.benx.dev/zh/tools/git/</loc>
+        <lastmod>2024-12-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://csnotes.benx.dev/zh/tools/git/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://csnotes.benx.dev/tools/git/"/>
+    </url>
+    <url>
+        <loc>https://csnotes.benx.dev/zh/tools/latex/</loc>
+        <lastmod>2024-12-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://csnotes.benx.dev/zh/tools/latex/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://csnotes.benx.dev/tools/latex/"/>
+    </url>
+    <url>
+        <loc>https://csnotes.benx.dev/zh/tools/linux/</loc>
+        <lastmod>2024-12-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://csnotes.benx.dev/zh/tools/linux/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://csnotes.benx.dev/tools/linux/"/>
+    </url>
+    <url>
+        <loc>https://csnotes.benx.dev/zh/tools/markdown/</loc>
+        <lastmod>2024-12-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://csnotes.benx.dev/zh/tools/markdown/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://csnotes.benx.dev/tools/markdown/"/>
+    </url>
+    <url>
+        <loc>https://csnotes.benx.dev/zh/tools/vim/</loc>
+        <lastmod>2024-12-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://csnotes.benx.dev/zh/tools/vim/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://csnotes.benx.dev/tools/vim/"/>
+    </url>
+</urlset>
