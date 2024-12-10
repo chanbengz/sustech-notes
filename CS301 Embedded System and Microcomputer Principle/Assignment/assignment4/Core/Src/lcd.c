@@ -2484,21 +2484,65 @@ void lcd_color_fill(uint16_t sx, uint16_t sy, uint16_t ex, uint16_t ey, uint16_t
     }
 }
 
-void lcd_color_fill_scale(uint16_t sx, uint16_t sy, uint16_t ex, uint16_t ey, uint16_t *color, uint8_t scale)
+void lcd_color_fill_trans(uint16_t sx, uint16_t sy, uint16_t ex, uint16_t ey, uint16_t *color, uint8_t scale)
 {
     uint16_t height, width;
     uint16_t i, j;
     width = ex - sx + 1;
     height = ey - sy + 1;
 
-    for (i = 0; i < height * scale; i++)
+    for (i = 0; i < height; i++)
+    {
+    	lcd_set_cursor(sx, sy + i);
+        lcd_write_ram_prepare();
+        int w = (i / scale) * (width / scale);
+
+        for (j = 0; j < width; j++)
+        {
+            if (color[w + j / scale] != 0xFFFF) {
+            	lcd_draw_point_scale(sx + j, sy + i, color[w + j / scale], scale);
+            }
+        }
+    }
+}
+
+void lcd_color_fill_scale(uint16_t sx, uint16_t sy, uint16_t ex, uint16_t ey, uint16_t *color, uint8_t scale, int start)
+{
+    uint16_t height, width;
+    uint16_t i, j;
+    width = ex - sx + 1;
+    height = ey - sy + 1;
+
+    for (i = 0; i < height; i++)
     {
         lcd_set_cursor(sx, sy + i);
         lcd_write_ram_prepare();
+        int w = start + (i / scale) * (width / scale);
 
-        for (j = 0; j < width * scale; j++)
+        for (j = 0; j < width; j++)
         {
-            lcd_wr_data(color[(i / scale) * width + (j / scale)]);
+            lcd_wr_data(color[w + (j / scale)]);
+        }
+    }
+}
+
+void lcd_color_fill_scale_part(uint16_t sx, uint16_t sy, uint16_t ex, uint16_t ey, uint16_t *color, uint8_t scale, int start)
+{
+    uint16_t height, width;
+    uint16_t i, j;
+    width = 60;
+    height = 80;
+    uint16_t size = width * height;
+
+    for (i = sy; i < ey; i++)
+    {
+        lcd_set_cursor(sx, i);
+        lcd_write_ram_prepare();
+
+        int w = start + (i / scale) * width;
+        for (j = sx; j < ex; j++)
+        {
+            lcd_wr_data(color[w + (j / scale)]);
         }
     }
 }
@@ -2863,6 +2907,28 @@ void lcd_show_string(uint16_t x, uint16_t y, uint16_t width, uint16_t height, ui
         if (y >= height)break;  /* �˳� */
 
         lcd_show_char(x, y, *p, size, 0, color);
+        x += size / 2;
+        p++;
+    }
+}
+
+void lcd_show_string_trans(uint16_t x, uint16_t y, uint16_t width, uint16_t height, uint8_t size, char *p, uint16_t color)
+{
+    uint8_t x0 = x;
+    width += x;
+    height += y;
+
+    while ((*p <= '~') && (*p >= ' '))   /* �ж��ǲ��ǷǷ��ַ�! */
+    {
+        if (x >= width)
+        {
+            x = x0;
+            y += size;
+        }
+
+        if (y >= height)break;  /* �˳� */
+
+        lcd_show_char(x, y, *p, size, 1, color);
         x += size / 2;
         p++;
     }

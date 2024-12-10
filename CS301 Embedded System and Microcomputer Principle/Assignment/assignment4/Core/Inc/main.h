@@ -41,8 +41,24 @@ extern "C" {
 
 /* Exported constants --------------------------------------------------------*/
 /* USER CODE BEGIN EC */
-extern const unsigned char gImage_11[20008];
+extern const unsigned char background_1[38400];
+extern const unsigned char player_car[3][1800];
+extern const unsigned char player_car_jump[4050]; // 45x45
+extern const unsigned char finish_line[1680];
+extern const unsigned char player_boat[1500]; // 25x30
+extern const unsigned char player_boat_jump[3150]; // 35x45
+extern const unsigned char button[4356]; // 66x33
+extern const unsigned char obstacle1[1800]; // 30x30
+extern const unsigned char obstacle2[1800]; // 30x30
+
+
+extern int game_state, game_time, theme;
+extern int speed;
+
+
 extern UART_HandleTypeDef huart1;
+
+
 /* USER CODE END EC */
 
 /* Exported macro ------------------------------------------------------------*/

@@ -279,35 +279,30 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
   switch (GPIO_Pin)
   {
   case KEY0_Pin:
-    if (HAL_GPIO_ReadPin(KEY0_GPIO_Port, KEY0_Pin) != GPIO_PIN_RESET)
-      break;
-    
-    lcd_clear(WHITE); // 清屏
-    TP_Adjust();      // 屏幕校准
-    TP_Save_Adjdata();
-    Load_Drow_Dialog();
-
-    while (HAL_GPIO_ReadPin(KEY0_GPIO_Port, KEY0_Pin) == GPIO_PIN_RESET)
-      ;
+    if (HAL_GPIO_ReadPin(KEY0_GPIO_Port, KEY0_Pin) != GPIO_PIN_RESET) break;
+    if (game_state == 0) theme = theme ? 0 : 1; break;
     break;
   case KEY1_Pin:
-    if (HAL_GPIO_ReadPin(KEY1_GPIO_Port, KEY1_Pin) != GPIO_PIN_RESET)
-      break;
-    
-
-    while (HAL_GPIO_ReadPin(KEY1_GPIO_Port, KEY1_Pin) == GPIO_PIN_RESET)
-      ;
-    break;
-  case KEY_WKUP_Pin:
-    if (HAL_GPIO_ReadPin(KEY_WKUP_GPIO_Port, KEY_WKUP_Pin) != GPIO_PIN_SET)
-      break;
-    
-
-    while (HAL_GPIO_ReadPin(KEY_WKUP_GPIO_Port, KEY_WKUP_Pin) == GPIO_PIN_SET)
-      ;
-    break;
+    if (HAL_GPIO_ReadPin(KEY1_GPIO_Port, KEY1_Pin) != GPIO_PIN_RESET) break;
+    game_state = 1; break;
   default:
     break;
   }
+}
+
+int last_speed;
+__weak void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
+	if(game_state == 1) {
+		game_time++;
+	    char c[10]; sprintf(c, "speed: %2d", speed);
+	    lcd_show_string(100, 0, 200, 16, 16, c, BLACK);
+		if (game_time % 4 == 0) {
+			char s[10]; sprintf(s, "Time: %d", game_time / 4);
+			lcd_show_string(10, 0, 200, 16, 16, s, BLACK);
+			last_speed = speed;
+		} else if (game_time % 6 == 0) {
+			if (speed != 0 && last_speed == speed) speed = speed > 0 ? speed - 1 : speed + 1;
+		}
+	}
 }
 /* USER CODE END 1 */

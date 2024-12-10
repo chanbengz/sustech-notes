@@ -210,7 +210,8 @@ void lcd_fill(uint16_t sx, uint16_t sy, uint16_t ex, uint16_t ey, uint32_t color
 void lcd_color_fill(uint16_t sx, uint16_t sy, uint16_t ex, uint16_t ey, uint16_t *color);   /* ��ɫ������ */
 void lcd_draw_line(uint16_t x1, uint16_t y1, uint16_t x2, uint16_t y2, uint16_t color);     /* ��ֱ�� */
 void lcd_draw_rectangle(uint16_t x1, uint16_t y1, uint16_t x2, uint16_t y2, uint16_t color);/* ������ */
-
+void lcd_color_fill_trans(uint16_t sx, uint16_t sy, uint16_t ex, uint16_t ey, uint16_t *color, uint8_t scale);
+void lcd_color_fill_scale(uint16_t sx, uint16_t sy, uint16_t ex, uint16_t ey, uint16_t *color, uint8_t scale, int start);
 
 void lcd_show_char(uint16_t x, uint16_t y, char chr, uint8_t size, uint8_t mode, uint16_t color);                       /* ��ʾһ���ַ� */
 void lcd_show_num(uint16_t x, uint16_t y, uint32_t num, uint8_t len, uint8_t size, uint16_t color);                     /* ��ʾ���� */
