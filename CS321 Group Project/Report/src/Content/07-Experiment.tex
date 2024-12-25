@@ -1,0 +1,54 @@
+\section{Experiment}
+
+We run the experiment on the machines in \href{tested-machines}{Table 2}
+
+\begin{table}[!htbp]
+	\centering
+	\begin{tabular}[c]{lll}
+		\toprule
+        CPU & Generation & Memory \\
+		\midrule
+        Xeon(R) Silver 4210 & Cascade Lake & DDR4 128GB \\
+        XiangShan & Nanhu (FPGA) & DDR3 16GB \\
+        XiangShan & \makecell[l]{Kunminghu \\ (Verilator \& GEM5)} & DDR3 8GB \\
+		\bottomrule 
+	\end{tabular}
+    \caption{Tested machines}
+    \label{tested-machines}
+\end{table}
+
+The Intel machine is run under a KVM and host processor, while XiangShan can only run FPGA and simulator. Preparing XiangShan's simulation is pretty
+tricky, for example, the compilation takes approximately two hours to complete and Verilator runs at speed of nearly a hundred thousand times slower than the silicon chip. So to verify the attack, we preliminarily ran attacks on the x86-64 processors. Next, we perform the migrated attack on XiangShan.
+Due to the lmited equipment, we are only able to run Nanhu on FPGA and the latest Kunminghun is available only on simulation by Verilator and GEM5.
+
+\subsection{Preliminary}
+\subsubsection{Spectre on x86}
+We run the unmodified Spectre attack script\cite{spectre} on Xeon(R) Silver 4210, with cache hit threshold to be 50 cycles. The script was successfully
+executes and the leakage accuracy reaches nearly 100 percent. Also, we further tested with Spectre to break KASLR and read \verb|/etc/shadow|. The average leakage rate is 2113 bytes per second.
+
+\subsubsection{Phantom on x86}
+Using training method and observation channel mentioned in \ref{sec:x86 phantom}, we obtain same results on AMD Zen2 as \cite{phantom}, i.e. all combinations of training / victim instructions can leads to phantom execution. However, on AMD Zen3, we could only observe the mispredicted instruction entering ICache, but without subsequent ID and EX signals on instruction types mismatch, which disagrees with the result in \cite{phantom} where mispredicted instructions can enter the ID stage. This might be because we used different testing metrics.
+
+\subsubsection{Downfall on x86}
+The Downfall attack was already implemented by the author. However, only the testing script and spying scripts can be successfully replicated.
+The case study to break AES-NI encryption fails to steal any of the keys. The leakage of GDS spy was 6 bytes at average, where the leaked information
+are pieces of readable string. We can confirm the attack is valid but somehow the case study won't work.
+
+\subsection{Exploiting XiangShan}
+
+\subsubsection{Spectre on XiangShan}
+Replicating Spectre on XiangShan is tricky due to the following reason
+\begin{itemize}
+    \item XiangShan is mostly run on simulator and with bare-metal workload, where libc is unreachable.
+    \item If we try to boot a Linux image, it will cost at least 24 hours to bootup.
+    \item The only applicable solution is to run on FPGA.
+\end{itemize}
+As a preliminary test, we measured the cycles elapsed for cache hits and misses. The results shows that the threshold sits around 140 cycles on FPGA with 100MHz clocks and a normal DDR3 RAM. Next we run the migrated RISC-V version of Spectre. The leakage shows a 103 bytes per second and a hundred percent accuracy. 
+
+\subsubsection{Phantom on XiangShan}
+We have currently only conducted related experiments in emulation. However, due to the insufficient difference in the values read from the hardware counters, they are not significant enough to serve as indicators for determining whether an instruction has entered a particular stage. We may need to establish more refined observation channels.
+
+\subsubsection{Downfall on XiangShan}
+Playing with RISC-V vector extension requires lots of experience in its details, and the suggested way to apply vector is to invoke the library
+APIs. However, this violates the principle of our exploitation. Due to the lack of RVV-related knowledge, we are still tweaking the codes and trying
+to observes the secret brounght to cache.

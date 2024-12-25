@@ -1,0 +1,10 @@
+\section{Future Work}
+\paragraph{Exploiting the Architecture}
+Due to the limitation of time and lack of knowledge, the actual attack on the vector extension of RISC-V and phantom execution remains incomplete.
+We plan to further address the root cause of the malfunctioning attack.
+
+\paragraph{Mitigating the Transient Attack}
+Hu et al.\cite{sok} summarize the possible hardware mitigation against the transient attack. 
+Due to the speculation, software mitigation aims to block the transient window by enabling memory barrier. 
+However, this causes huge performance overhead. Therefore, it's more applicable to implement hardware mitigation, such as the
+branch shadowing and buffer shadowing. These techniques block the unauthorized access to sensitive data.

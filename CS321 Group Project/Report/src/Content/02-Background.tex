@@ -1,0 +1,26 @@
+\section{Background}
+
+\subsection{Side Channel Attacks}
+
+In contrast to the mathematical models used in cryptanalysis, side-channel attacks target at the actual hardware systems implementing the cryptographic algorithms. These attacks exploit certain characteristics of specific hardware systems and carry out physical attacks on devices to steal secret from them. Compared with direct attack, SCAs are more powerful but less accurate.
+
+\subsection{Cache}
+Cache is a smaller, faster memory component located closer to the core, designed to store copies of frequently accessed data from the main memory. The principle of cache is temporal and spatial locality of data. This means that the data accessed will probably be accessed again and the neighbour data will probably be accessed  in the future. 
+
+Typically, a modern CPU has one isolated L1 cache for each core and shared L2 cache within a bundle of core and a global L3 cache. Most of the cache hierarchy design is inclusive, ensuring that data in lower cache is in higher cache as well.
+
+\subsection{Speculative Execution}
+Modern processors are equipped with pipeline and superscalar technology. However, when dealing with a branch instruction, processors know the result cycles after and within this window, it has to stall. To ensure both correctness and efficiency, branch prediction and speculative execution engine must also be accompanied. By this technique, processor predicts the next branch and executes parts of the branch before obtaining the true branch result. If the prediction fails, it will roll back and discard the speculative result.
+
+\subsection{Cache-based Side Channel Attacks}
+Cache side-channel attacks leverage the differences in access times between cache hits (when data is present from the cache) and cache misses (when data is retrieved from the main memory). By measuring these access times, attackers can infer sensitive information about the data being processed. This flaw are often exploited with other flaws such as prefetcher and speculative execution.
+
+Cache attacks are generally categorized into four kinds, which are flush+reload, flush+flush, prime+probe and evict+time. These are often require a high-resolution timer, while several state-of-the-art attacks leverage the new x86 instructions without a timer such as MWAIT\cite{mwait}.
+
+\subsection{Microarchitecutral Data Sampling}
+As further optimization, modern processors leverage small-sized internal cache inside microarchitectural components. For example, in the Load-Store Unit (LSU), it will try to fully occupy the bandwidth of memory transmission by adding a committed-store buffer. The store instruction is committed in batch to the memory when the buffer reaches the batch size. Similar to cache, when instruction accesses data inside the buffer, it can fetch data directly from the buffer, which also causes a timing difference. As a result, an attacker at the same CPU core could steal data from these shared buffers.
+
+\subsection{OpenXiangShan}
+In 2019, the Institute of Computing Technology of the Chinese Academy of Sciences initiated the XiangShan high-performance open-source RISC-V processor project. It provides one of the worldwide highest-performing open-source RISC-V processor cores IP with a agile development workflow, similar to Berkeley-Out-of-Order-Machine.
+
+Ghaniyoun et al.\cite{teesec} presented their automatic framework in finding microarchitectural flaws in XiangShan, but the primitive is not well-developed into a valid attack.

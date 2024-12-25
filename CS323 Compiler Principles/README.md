@@ -10,4 +10,14 @@ Tutorial of the dragon book, with labs and projects, including lexical analysis 
 
 ## Content
 
-TBD
+| Lecture                                 | Duration | Content |
+| --------------------------------------- | -------- | ------- |
+| Introduction                            | 1 Week   |         |
+| Regular Expressions & Lexical Analysis  | 3 Week   |         |
+| Context-Free Grammars & Syntax Analysis | 3 Week   |         |
+| Syntax-Directed Translation             |          |         |
+| Intermediate-Code Generation            |          |         |
+| Run-Time Environments                   |          |         |
+| Code Generation                         |          |         |
+| Introduction to Data-Flow Analysis      |          |         |
+

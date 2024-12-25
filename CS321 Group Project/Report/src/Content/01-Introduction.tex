@@ -1,0 +1,21 @@
+\section{Introduction}
+
+Side-channel attacks are a type of security exploit that
+leverage the physical characteristics of a system to extract sensitive information.
+Microarchitecture vulnerabilities include cache-based side channel,
+interrupt-based side channel, microarchitectural data sampling, etc. 
+Recent studies have demonstrated the evolving complexity and efficacy
+of side-channel attacks. However, these findings were performed on X86-64
+or ARM processors. However, the OpenXiangShan RISC-V processor has yet to
+be exposed to valid exploitation. In our survey, the mitigation
+of side-channel implemented on RISC-V claimed that their defense was effective, but did not provide a valid proof-of-concept attack for their experiment. Therefore,
+before finding a defensive methodology, our first objective is to find a valid
+attack surface.
+
+In this project, we investigated the world of various side-channels with
+the attack surfaces being the classical Specter, and brand-new Phantom and Downfall attack. Meanwhile, we also surveyed several related attack surfaces exploiting the architectural component like TLB, interrupt, and buses. However, due to the limitation of time, we are only able to leave them to the future works.
+
+Spectre attack exploits the speculative execution of modern processor to leak data
+by misleading the branch predictor and triggering the misprediction to accidentally bring sensitive information to cache. Phantom attack is able to observe the performance counter to induce the instruction decoded at the frontend of processor, which causes a information leakage. The Downfall attack takes advantage of the vector instruction to rapidly fill out the internal buffer (also serves like a cache) and sequently conducts a microarchitectural data sampling attack.
+
+The main challenges we encountered are that, firstly we are new to microarchitectural vulneraibility, which took us weeks to getting started. Secondly, the ecosystem of open-source processors remains incomplete and most of them are not currently commercially-off-the-shelf. So setting up the experiment workflow is not so easy as that in x86 or ARM processors, because it often requires building the simulator and preparing the custom workloads with a complicated procedure. For now, we've not yet overcome them and are still validating our attack experiment.

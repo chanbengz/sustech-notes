@@ -1,0 +1,62 @@
+\documentclass[sigconf, nonacm]{acmart}
+\usepackage{graphicx, subcaption, hyperref, enumerate, minted, makecell}
+\usepackage[inkscapelatex=false]{svg}
+\settopmatter{printacmref=false}
+\bibliographystyle{plain}
+
+\title{Replicating Side Channel Attacks on RISC-V}
+
+\author{Ben Chen}
+\affiliation{
+  \institution{Southern University of Science and Technology}
+  \city{Shenzhen}
+  \state{Guangdong}
+  \country{China}
+}
+\email{chenb2022@mail.sustech.edu.cn}
+
+\author{Jikun Liao}
+\affiliation{
+  \institution{Southern University of Science and Technology}
+  \city{Shenzhen}
+  \state{Guangdong}
+  \country{China}
+}
+\email{12212224@mail.sustech.edu.cn}
+
+\author{Shuwei Zhang}
+\affiliation{
+  \institution{Southern University of Science and Technology}
+  \city{Shenzhen}
+  \state{Guangdong}
+  \country{China}
+}
+\email{12212912@mail.sustech.edu.cn}
+
+\begin{document}
+
+\input{Content/00-Abstract}
+
+\maketitle
+
+\input{Content/01-Introduction}
+
+\input{Content/02-Background}
+
+\input{Content/03-Related-Work}
+
+\input{Content/04-Spectre}
+
+\input{Content/05-Phantom}
+
+\input{Content/06-Downfall}
+
+\input{Content/07-Experiment}
+
+\input{Content/08-Future-Work}
+
+\input{Content/09-Conclusion}
+
+\bibliography{ref}
+
+\end{document}
