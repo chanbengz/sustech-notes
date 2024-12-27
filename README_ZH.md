@@ -31,6 +31,7 @@
 | [CS301 Embedded System and Microcomputer Principle](./EE411%20Information%20Theory%20and%20Coding) | 白雨卉 | 2024 秋季 |
 | [CS302 操作系统（OS）](./CS302%20Operating%20System)         | 张殷乾        | 2024 春季 |
 | [CS303 人工智能（AI）](./CS303%20Artificial%20Intelligence)  | 唐珂          | 2024 秋季 |
+| [CS304 软件工程（SE）](./CS304%20Software%20Engineering) | [陶伊达 | 2025 春季 |
 | [CS305 计算机网络](./CS305%20Computer%20Networks)            | 唐茗          | 2023 秋季 |
 | [CS307 数据库](./CS307%20Database%20System)                  | 程然          | 2023 秋季 |
 | [CS309 面向对象分析与设计（OOAD）](./CS309%20Object-Oriented%20Analysis%20and%20Design) | 张煜群        | 2024 秋季 |
@@ -38,7 +39,7 @@
 | [CS323 编译原理](./CS323%20Compiler%20Principles)            | 刘烨庞        | 2024 秋季 |
 | [CSE5014 密码学与网络安全](./CSE5014%20Cryptography%20and%20Network%20Security) | 王琦          | 2024 春季 |
 | [SS149 近代西方哲学](./SS149%20Early%20Modern%20Western%20Philosophy/) | 小田隆晴      | 2024 春季 |
-| [新国大计算机学院暑研 2024](./NUS%20SWS%202024)              | Hugh Anderson | 2024 夏季 |
+| [新国大计算机学院暑研](./NUS%20SWS%202024)              | Hugh Anderson | 2024 夏季 |
 
 大体上，每门课程包括以下文件夹
 - **Assignment** 编程/理论作业

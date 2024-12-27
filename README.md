@@ -30,6 +30,7 @@ The repo contains the following courses for now
 | [CS301 Embedded System and Microcomputer Principle](./EE411%20Information%20Theory%20and%20Coding) | Yuhui Bai | Fall 2024 |
 | [CS302 Operating System](./CS302%20Operating%20System) | Yinqian Zhang | Spring 2024 |
 | [CS303 Artificial Intelligence](./CS303%20Artificial%20Intelligence) | Ke Tang | Fall 2024 |
+| [CS304 Software Engineering](./CS304%20Software%20Engineering) | Yida Tao | Spring 2025 |
 | [CS305 Computer Networks](./CS305%20Computer%20Networks) | Ming Tang | Fall 2023 |
 | [CS307 Database System](./CS307%20Database%20System) | Ran Cheng | Fall 2023 |
 | [CS309 Object-Oriented Analysis and Design](./CS309%20Object-Oriented%20Analysis%20and%20Design) | Yuqun Zhang | Fall 2024 |
