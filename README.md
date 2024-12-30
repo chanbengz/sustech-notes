@@ -27,7 +27,7 @@ The repo contains the following courses for now
 | [CS203 Data Structures and Algorithm Analysis](./CS203%20Data%20Structures%20and%20Algorithm%20Analysis) | Bo Tang | Fall 2023 |
 | [CS207 Digital Design](./CS207%20Digital%20Design) | Yuhui Bai | Fall 2023 |
 | [CS208 Algorithm Design and Analysis](./CS208%20Algorithm%20Design%20and%20Analysis) | Yuhui Shi | Spring 2024 |
-| [CS301 Embedded System and Microcomputer Principle](./EE411%20Information%20Theory%20and%20Coding) | Yuhui Bai | Fall 2024 |
+| [CS301 Embedded System and Microcomputer Principle](./CS301%20Embedded%20System%20and%20Microcomputer%20Principle) | Yuhui Bai | Fall 2024 |
 | [CS302 Operating System](./CS302%20Operating%20System) | Yinqian Zhang | Spring 2024 |
 | [CS303 Artificial Intelligence](./CS303%20Artificial%20Intelligence) | Ke Tang | Fall 2024 |
 | [CS304 Software Engineering](./CS304%20Software%20Engineering) | Yida Tao | Spring 2025 |
