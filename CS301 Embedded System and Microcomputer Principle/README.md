@@ -26,11 +26,11 @@ It gives hands-on STM32 tutorial and embedded system principles, which is relate
 | #6      | UART                            | UART Protocal<br>USART in STM32                              |
 | #7      | Timer                           | Clock Tree<br>STM32 Timers                                   |
 | #8      | Advanced Timer                  | Output Compare PWM<br>Input Capture<br>Systick               |
-| #9      | DMA & Pipeline                  | Direct Memory Access<br>Bit-banding<br>ARMv7 Pipeline        |
-| #10     | I2C & SPI                       | Inter-Integrated Circuit<br>Serial Peripheral Interface Protocol |
-| #11     | SD Card & File System           | Storage Devices Overview & SD Card<br>FAT FS                 |
-| #12     | Bus                             | Bus Architecture<br>Arbitration                              |
-| #13     | ADC                             | Analog-to-Digital Converter (on STM32)                       |
+| #9      | I2C & SPI                       | Inter-Integrated Circuit<br>Serial Peripheral Interface Protocol |
+| #10     | SD Card & File System           | Storage Devices Overview & SD Card<br>FAT FS                 |
+| #11     | Bus                             | Bus Architecture<br>Arbitration                              |
+| #12     | ADC                             | Analog-to-Digital Converter (on STM32)                       |
+| #13      | DMA & Pipeline                  | Direct Memory Access<br>Bit-banding<br>ARMv7 Pipeline        |
 | #14     | Arithmetic                      | Barrel Shifter<br>Ripple Carry, Look Ahead, Carry Select<br>Booth's Algorithm |
 
 ## Lab
