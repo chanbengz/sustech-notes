@@ -16,6 +16,7 @@ Since the repo is maintained by myself, I'd be very grateful if you could contri
     
 - **Composing wiki**: I'm thinking of starting a wiki for the repo. For now it's barely a mirror of READMEs but I'd like them to be more detailed. If you have any ideas, please feel free to add them in the wiki.s
 
+
 # 如何贡献
 
 因为本仓库是由我一个人维护的，所以如果你能为本仓库贡献，我将不胜感激，而且不会有任何繁琐的“流程”。以下是一些你可以考虑贡献的：
@@ -31,3 +32,21 @@ Since the repo is maintained by myself, I'd be very grateful if you could contri
     如果你添加了新课程，请同时更新README。当然也可以把杂活给其他维护者。
 - **撰写 wiki**：我正在考虑为仓库启动一个 wiki。目前它几乎只是 README 的镜像，但我希望它们不止于此。如果你有任何想法，欢迎添加到 wiki 中。
 
+
+# 投稿方法 
+
+このレポは私自身がメンテナンスしているので、もしあなたがこのレポに貢献してくれるならとてもありがたい。貢献できることは以下の通りです：
+
+- **誤植の修正**：もしノートに誤植を見つけたら、遠慮なくPRを作成してください。
+
+- **注釈の追加**： 私はノートを取るタイプではないので、ほとんどのコースではノートを要約することはありません。もしこのレポにあるコースのノートをお持ちでしたら、遠慮なくここに追加してください。(ノートに名前を書くのを忘れないでください）。
+
+- **課題の修正**：課題に間違いを見つけたら、説明とともにPRで直接修正してください。
+
+- **学期を増やす**：[CS109](./CS109%20Intro%20to%20Programming%20in%20Java/)のようにリファクタリングしてください。
+    + `CSxxx/Assignments...` -> `CSxxx/Fall 2022/Assignments...`
+    + そして、あなたの学期 `CSxxx/Spring 2024/README.md...` を追加してください。
+    
+    新しいコースを導入する場合は、READMEも更新してください。あるいは私に任せてください。
+    
+- **ウィキの作成**： レポのwikiを作ろうと思っています。今のところREADMEのミラーがやっとですが、もっと詳細なものにしたいと思っています。何かアイデアがあれば、遠慮なくwiki.sに追加してください。

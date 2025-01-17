@@ -4,7 +4,7 @@
 
 Course Notes and Materials for the Computer Science @SUSTech.
 
-:book: Language: <a href="https://github.com/chanbengz/sustech-notes/blob/master/README.md">English</a> • <a href="https://github.com/chanbengz/sustech-notes/blob/main/README_ZH.md">中文</a> 
+:book: Language: English • <a href="https://github.com/chanbengz/sustech-notes/blob/main/README_ZH.md">中文</a> • <a href="https://github.com/chanbengz/sustech-notes/blob/main/README_JP.md">日本語</a>
 
 </div>
 

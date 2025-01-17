@@ -4,11 +4,11 @@
 
 南方科技大学计算机科学与技术专业课程资料
 
-:book: 语言: <a href="https://github.com/chanbengz/sustech-notes/blob/master/README.md">English</a> • <a href="https://github.com/chanbengz/sustech-notes/blob/main/README_ZH.md">中文</a> 
+:book: 语言: <a href="https://github.com/chanbengz/sustech-notes/blob/master/README.md">English</a> • 中文 • <a href="https://github.com/chanbengz/sustech-notes/blob/main/README_JP.md">日本語</a>
 
 </div>
 
-## 简介
+## 序言
 
 这个仓库收集了我上过的每一门专业课或其他相关课的课程资料，其中包括的一些作业答案可能有错误或写得不清楚，如果理解过程中有问题，欢迎给我发邮件 `chanben04gz [AT] gmail [DOT] com` 或直接提Issue，也欢迎在PR为本仓库贡献你的资料！
 
@@ -31,9 +31,9 @@
 | [CS301 嵌入式和微机原理](./CS301%20Embedded%20System%20and%20Microcomputer%20Principle) | 白雨卉 | 2024 秋季 |
 | [CS302 操作系统（OS）](./CS302%20Operating%20System)         | 张殷乾        | 2024 春季 |
 | [CS303 人工智能（AI）](./CS303%20Artificial%20Intelligence)  | 唐珂          | 2024 秋季 |
-| [CS304 软件工程（SE）](./CS304%20Software%20Engineering) | [陶伊达 | 2025 春季 |
+| [CS304 软件工程（SE）](./CS304%20Software%20Engineering) | 陶伊达 | 2025 春季 |
 | [CS305 计算机网络](./CS305%20Computer%20Networks)            | 唐茗          | 2023 秋季 |
-| [CS307 数据库](./CS307%20Database%20System)                  | 程然          | 2023 秋季 |
+| [CS307 数据库原理](./CS307%20Database%20System)              | 程然          | 2023 秋季 |
 | [CS309 面向对象分析与设计（OOAD）](./CS309%20Object-Oriented%20Analysis%20and%20Design) | 张煜群        | 2024 秋季 |
 | [CS321 创新实践](./CS321%20Group%20Project)                  | 张锋巍        | 2024 秋季 |
 | [CS323 编译原理](./CS323%20Compiler%20Principles)            | 刘烨庞        | 2024 秋季 |
