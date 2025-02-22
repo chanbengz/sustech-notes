@@ -1,0 +1,543 @@
+edition,edition_id,year,country,country_noc,gold,silver,bronze,total
+2014 Winter Olympics,58,2014,Japan,JPN,1,4,3,8
+2012 Summer Olympics,54,2012,Armenia,ARM,0,1,1,2
+2018 Winter Olympics,60,2018,People's Republic of China,CHN,1,6,2,9
+1976 Summer Olympics,19,1976,Mexico,MEX,1,0,1,2
+2020 Summer Olympics,61,2020,Ethiopia,ETH,1,1,2,4
+1994 Winter Olympics,45,1994,Canada,CAN,3,6,4,13
+2010 Winter Olympics,57,2010,Kazakhstan,KAZ,0,1,0,1
+1992 Summer Olympics,23,1992,Finland,FIN,1,2,2,5
+1976 Summer Olympics,19,1976,Republic of Korea,KOR,1,1,4,6
+1994 Winter Olympics,45,1994,Ukraine,UKR,1,0,1,2
+2008 Summer Olympics,53,2008,Ecuador,ECU,0,1,0,1
+1906 Intercalated,4,1906,Norway,NOR,1,1,0,2
+2004 Summer Olympics,26,2004,Colombia,COL,0,0,2,2
+2004 Summer Olympics,26,2004,Zimbabwe,ZIM,1,1,1,3
+1952 Summer Olympics,13,1952,Argentina,ARG,1,2,2,5
+1896 Summer Olympics,1,1896,Austria,AUT,2,1,2,5
+2008 Summer Olympics,53,2008,Belgium,BEL,2,0,0,2
+2004 Summer Olympics,26,2004,Venezuela,VEN,0,0,2,2
+1948 Summer Olympics,12,1948,Netherlands,NED,5,2,9,16
+2016 Summer Olympics,59,2016,Democratic People's Republic of Korea,PRK,2,3,2,7
+1968 Summer Olympics,17,1968,Australia,AUS,5,7,5,17
+2016 Summer Olympics,59,2016,Fiji,FIJ,1,0,0,1
+2012 Summer Olympics,54,2012,Brazil,BRA,3,5,9,17
+2008 Summer Olympics,53,2008,Austria,AUT,0,1,2,3
+1994 Winter Olympics,45,1994,Russian Federation,RUS,11,8,4,23
+2012 Summer Olympics,54,2012,Greece,GRE,0,0,2,2
+1984 Winter Olympics,42,1984,Italy,ITA,2,0,0,2
+2002 Winter Olympics,47,2002,France,FRA,4,5,2,11
+1972 Winter Olympics,39,1972,West Germany,FRG,3,1,1,5
+2008 Summer Olympics,53,2008,Ukraine,UKR,7,4,11,22
+1980 Summer Olympics,20,1980,Belgium,BEL,1,0,0,1
+2000 Summer Olympics,25,2000,Kyrgyzstan,KGZ,0,0,1,1
+1972 Summer Olympics,18,1972,Great Britain,GBR,4,5,9,18
+1932 Winter Olympics,31,1932,Canada,CAN,1,1,5,7
+2008 Summer Olympics,53,2008,New Zealand,NZL,3,2,4,9
+1924 Summer Olympics,8,1924,Belgium,BEL,3,7,3,13
+1998 Winter Olympics,46,1998,Austria,AUT,3,5,9,17
+1900 Summer Olympics,2,1900,Denmark,DEN,1,3,2,6
+2000 Summer Olympics,25,2000,People's Republic of China,CHN,28,16,14,58
+1992 Summer Olympics,23,1992,Ethiopia,ETH,1,0,2,3
+1964 Winter Olympics,37,1964,Canada,CAN,1,1,1,3
+1936 Summer Olympics,11,1936,Yugoslavia,YUG,0,1,0,1
+2016 Summer Olympics,59,2016,Ukraine,UKR,2,5,4,11
+1976 Winter Olympics,40,1976,Great Britain,GBR,1,0,0,1
+1956 Summer Olympics,14,1956,Canada,CAN,2,1,2,5
+1936 Summer Olympics,11,1936,Germany,GER,38,31,32,101
+1928 Summer Olympics,9,1928,India,IND,1,0,0,1
+2018 Winter Olympics,60,2018,Republic of Korea,KOR,5,8,4,17
+1992 Summer Olympics,23,1992,Great Britain,GBR,5,3,12,20
+1976 Summer Olympics,19,1976,Jamaica,JAM,1,1,0,2
+2008 Summer Olympics,53,2008,Vietnam,VIE,0,1,0,1
+2012 Summer Olympics,54,2012,Venezuela,VEN,1,0,0,1
+1992 Summer Olympics,23,1992,Poland,POL,3,6,10,19
+2012 Summer Olympics,54,2012,Japan,JPN,7,14,17,38
+2020 Summer Olympics,61,2020,Armenia,ARM,0,2,2,4
+2004 Summer Olympics,26,2004,The Bahamas,BAH,1,0,1,2
+2020 Summer Olympics,61,2020,Croatia,CRO,3,3,2,8
+1984 Summer Olympics,21,1984,Zambia,ZAM,0,0,1,1
+1928 Summer Olympics,9,1928,Italy,ITA,7,6,7,20
+1980 Summer Olympics,20,1980,Italy,ITA,8,3,4,15
+1900 Summer Olympics,2,1900,Italy,ITA,3,2,0,5
+1996 Summer Olympics,24,1996,Austria,AUT,0,1,2,3
+2012 Summer Olympics,54,2012,France,FRA,11,11,13,35
+2004 Summer Olympics,26,2004,Ethiopia,ETH,2,3,2,7
+2020 Summer Olympics,61,2020,Mexico,MEX,0,0,4,4
+1924 Winter Olympics,29,1924,Sweden,SWE,1,1,0,2
+1972 Summer Olympics,18,1972,Ghana,GHA,0,0,1,1
+2020 Summer Olympics,61,2020,Kazakhstan,KAZ,0,0,8,8
+1992 Winter Olympics,44,1992,Finland,FIN,3,1,3,7
+1948 Winter Olympics,33,1948,Hungary,HUN,0,1,0,1
+1996 Summer Olympics,24,1996,Syrian Arab Republic,SYR,1,0,0,1
+1996 Summer Olympics,24,1996,Kazakhstan,KAZ,3,4,4,11
+1972 Summer Olympics,18,1972,Italy,ITA,5,3,10,18
+2008 Summer Olympics,53,2008,Slovenia,SLO,1,2,2,5
+1924 Summer Olympics,8,1924,Uruguay,URU,1,0,0,1
+2000 Summer Olympics,25,2000,India,IND,0,0,1,1
+2014 Winter Olympics,58,2014,Ukraine,UKR,1,0,1,2
+1920 Summer Olympics,7,1920,Great Britain,GBR,14,16,13,43
+1968 Summer Olympics,17,1968,Netherlands,NED,3,3,1,7
+2018 Winter Olympics,60,2018,Belarus,BLR,2,1,0,3
+1960 Summer Olympics,15,1960,Morocco,MAR,0,1,0,1
+1952 Summer Olympics,13,1952,Soviet Union,URS,22,30,19,71
+1988 Summer Olympics,22,1988,Greece,GRE,0,0,1,1
+1948 Summer Olympics,12,1948,Portugal,POR,0,1,1,2
+1932 Winter Olympics,31,1932,France,FRA,1,0,0,1
+1976 Summer Olympics,19,1976,France,FRA,2,3,4,9
+1964 Summer Olympics,16,1964,Czechoslovakia,TCH,5,6,3,14
+1932 Summer Olympics,10,1932,Philippines,PHI,0,0,3,3
+1988 Summer Olympics,22,1988,Japan,JPN,4,3,7,14
+1904 Summer Olympics,3,1904,Hungary,HUN,2,1,1,4
+2010 Winter Olympics,57,2010,Canada,CAN,14,7,5,26
+1996 Summer Olympics,24,1996,Mexico,MEX,0,0,1,1
+1980 Summer Olympics,20,1980,Denmark,DEN,2,1,2,5
+2016 Summer Olympics,59,2016,Trinidad and Tobago,TTO,0,0,1,1
+1996 Summer Olympics,24,1996,Belarus,BLR,1,6,8,15
+1984 Winter Olympics,42,1984,West Germany,FRG,2,1,1,4
+1996 Summer Olympics,24,1996,Israel,ISR,0,0,1,1
+1996 Summer Olympics,24,1996,Tonga,TGA,0,1,0,1
+2004 Summer Olympics,26,2004,Slovenia,SLO,0,1,3,4
+1968 Summer Olympics,17,1968,Switzerland,SUI,0,1,4,5
+2010 Winter Olympics,57,2010,Republic of Korea,KOR,6,6,2,14
+1932 Summer Olympics,10,1932,Canada,CAN,2,5,9,16
+1908 Summer Olympics,5,1908,Belgium,BEL,1,5,2,8
+2010 Winter Olympics,57,2010,Great Britain,GBR,1,0,0,1
+1960 Summer Olympics,15,1960,Singapore,SGP,0,1,0,1
+2020 Summer Olympics,61,2020,Lithuania,LTU,0,1,0,1
+1908 Summer Olympics,5,1908,Denmark,DEN,0,2,3,5
+2018 Winter Olympics,60,2018,Austria,AUT,5,3,6,14
+2010 Winter Olympics,57,2010,Norway,NOR,9,8,6,23
+1964 Summer Olympics,16,1964,Hungary,HUN,10,7,5,22
+1980 Summer Olympics,20,1980,Yugoslavia,YUG,2,3,4,9
+2004 Summer Olympics,26,2004,Sweden,SWE,4,2,1,7
+1952 Summer Olympics,13,1952,Türkiye,TUR,2,0,1,3
+1924 Summer Olympics,8,1924,Japan,JPN,0,0,1,1
+1900 Summer Olympics,2,1900,Belgium,BEL,6,6,6,18
+1948 Winter Olympics,33,1948,France,FRA,2,1,2,5
+1964 Winter Olympics,37,1964,Democratic People's Republic of Korea,PRK,0,1,0,1
+2000 Summer Olympics,25,2000,Thailand,THA,1,0,2,3
+1928 Summer Olympics,9,1928,Spain,ESP,1,0,0,1
+2022 Winter Olympics,62,2022,Belgium,BEL,1,0,1,2
+1984 Summer Olympics,21,1984,Syrian Arab Republic,SYR,0,1,0,1
+2004 Summer Olympics,26,2004,Belarus,BLR,2,5,6,13
+2012 Summer Olympics,54,2012,Dominican Republic,DOM,1,1,0,2
+1988 Summer Olympics,22,1988,Czechoslovakia,TCH,3,3,2,8
+1928 Summer Olympics,9,1928,Philippines,PHI,0,0,1,1
+1920 Summer Olympics,7,1920,United States,USA,41,27,27,95
+1998 Winter Olympics,46,1998,Japan,JPN,5,1,4,10
+2020 Summer Olympics,61,2020,Jamaica,JAM,4,1,4,9
+2014 Winter Olympics,58,2014,Austria,AUT,4,8,5,17
+1976 Summer Olympics,19,1976,Great Britain,GBR,3,5,5,13
+1984 Winter Olympics,42,1984,Austria,AUT,0,0,1,1
+1924 Winter Olympics,29,1924,Belgium,BEL,0,0,1,1
+1984 Summer Olympics,21,1984,West Germany,FRG,17,19,23,59
+2016 Summer Olympics,59,2016,Croatia,CRO,5,3,2,10
+2000 Summer Olympics,25,2000,Türkiye,TUR,3,0,2,5
+1928 Summer Olympics,9,1928,Australia,AUS,1,2,1,4
+1992 Summer Olympics,23,1992,Jamaica,JAM,0,3,1,4
+1904 Summer Olympics,3,1904,Mixed team,MIX,1,0,0,1
+1980 Winter Olympics,41,1980,Liechtenstein,LIE,2,2,0,4
+1952 Winter Olympics,34,1952,Hungary,HUN,0,0,1,1
+2020 Summer Olympics,61,2020,Syrian Arab Republic,SYR,0,0,1,1
+1972 Summer Olympics,18,1972,Australia,AUS,8,7,2,17
+1924 Winter Olympics,29,1924,Norway,NOR,4,7,6,17
+1996 Summer Olympics,24,1996,Georgia,GEO,0,0,2,2
+2014 Winter Olympics,58,2014,Slovakia,SVK,1,0,0,1
+2008 Summer Olympics,53,2008,Iceland,ISL,0,1,0,1
+2004 Summer Olympics,26,2004,Mongolia,MGL,0,0,1,1
+1960 Summer Olympics,15,1960,Hungary,HUN,6,8,7,21
+1936 Summer Olympics,11,1936,Australia,AUS,0,0,1,1
+2022 Winter Olympics,62,2022,Sweden,SWE,8,5,5,18
+1968 Summer Olympics,17,1968,Chinese Taipei,TPE,0,0,1,1
+1976 Summer Olympics,19,1976,Austria,AUT,0,0,1,1
+1928 Summer Olympics,9,1928,Denmark,DEN,3,2,4,9
+2016 Summer Olympics,59,2016,Slovakia,SVK,2,2,0,4
+1988 Winter Olympics,43,1988,Italy,ITA,2,1,2,5
+1976 Summer Olympics,19,1976,Australia,AUS,0,1,4,5
+2022 Winter Olympics,62,2022,Slovenia,SLO,2,3,2,7
+1908 Summer Olympics,5,1908,Netherlands,NED,0,0,2,2
+1984 Summer Olympics,21,1984,Denmark,DEN,0,3,3,6
+2016 Summer Olympics,59,2016,France,FRA,10,18,14,42
+2016 Summer Olympics,59,2016,Greece,GRE,3,1,2,6
+1980 Summer Olympics,20,1980,Ethiopia,ETH,2,0,2,4
+2020 Summer Olympics,61,2020,North Macedonia,MKD,0,1,0,1
+1996 Summer Olympics,24,1996,United States,USA,44,32,25,101
+2020 Summer Olympics,61,2020,Republic of Korea,KOR,6,4,10,20
+1976 Summer Olympics,19,1976,Romania,ROU,4,9,14,27
+2004 Summer Olympics,26,2004,India,IND,0,1,0,1
+1968 Summer Olympics,17,1968,Bulgaria,BUL,2,4,3,9
+1972 Winter Olympics,39,1972,Czechoslovakia,TCH,1,0,2,3
+1936 Summer Olympics,11,1936,Egypt,EGY,2,1,2,5
+2020 Summer Olympics,61,2020,Venezuela,VEN,1,3,0,4
+1932 Summer Olympics,10,1932,Denmark,DEN,0,5,3,8
+1992 Summer Olympics,23,1992,Netherlands,NED,2,6,7,15
+2004 Summer Olympics,26,2004,Türkiye,TUR,3,3,4,10
+2016 Summer Olympics,59,2016,Philippines,PHI,0,1,0,1
+1908 Summer Olympics,5,1908,United States,USA,23,12,12,47
+2022 Winter Olympics,62,2022,Italy,ITA,2,7,8,17
+1968 Winter Olympics,38,1968,Italy,ITA,4,0,0,4
+2016 Summer Olympics,59,2016,Israel,ISR,0,0,2,2
+1992 Summer Olympics,23,1992,Bulgaria,BUL,3,7,6,16
+2000 Summer Olympics,25,2000,Estonia,EST,1,0,2,3
+2000 Summer Olympics,25,2000,Germany,GER,13,17,26,56
+1960 Summer Olympics,15,1960,United States,USA,34,21,16,71
+1952 Summer Olympics,13,1952,Uruguay,URU,0,0,2,2
+1996 Summer Olympics,24,1996,Great Britain,GBR,1,8,6,15
+2004 Summer Olympics,26,2004,Azerbaijan,AZE,1,0,4,5
+2012 Summer Olympics,54,2012,Italy,ITA,8,9,11,28
+1976 Winter Olympics,40,1976,Norway,NOR,3,3,1,7
+2010 Winter Olympics,57,2010,Australia,AUS,2,1,0,3
+1896 Summer Olympics,1,1896,Hungary,HUN,2,1,3,6
+1912 Summer Olympics,6,1912,Sweden,SWE,23,25,17,65
+2004 Summer Olympics,26,2004,Georgia,GEO,2,2,0,4
+1968 Summer Olympics,17,1968,Mexico,MEX,3,3,3,9
+2020 Summer Olympics,61,2020,Greece,GRE,2,1,1,4
+2006 Winter Olympics,49,2006,Estonia,EST,3,0,0,3
+1928 Winter Olympics,30,1928,Canada,CAN,1,0,0,1
+1992 Winter Olympics,44,1992,Canada,CAN,2,3,2,7
+1992 Winter Olympics,44,1992,Republic of Korea,KOR,2,1,1,4
+1948 Summer Olympics,12,1948,Türkiye,TUR,6,4,2,12
+1960 Summer Olympics,15,1960,Denmark,DEN,2,3,1,6
+2012 Summer Olympics,54,2012,Latvia,LAT,1,0,1,2
+1988 Winter Olympics,43,1988,Yugoslavia,YUG,0,2,1,3
+1948 Summer Olympics,12,1948,Egypt,EGY,2,2,1,5
+2020 Summer Olympics,61,2020,Poland,POL,4,5,5,14
+1936 Summer Olympics,11,1936,Romania,ROU,0,1,0,1
+1936 Winter Olympics,32,1936,Germany,GER,3,3,0,6
+1956 Winter Olympics,35,1956,Norway,NOR,2,1,1,4
+1968 Winter Olympics,38,1968,France,FRA,4,3,2,9
+1988 Winter Olympics,43,1988,United States,USA,2,1,3,6
+2008 Summer Olympics,53,2008,Czechia,CZE,3,3,1,7
+1988 Summer Olympics,22,1988,Djibouti,DJI,0,0,1,1
+1968 Summer Olympics,17,1968,New Zealand,NZL,1,0,2,3
+1984 Summer Olympics,21,1984,Finland,FIN,4,2,6,12
+1928 Summer Olympics,9,1928,Japan,JPN,2,2,1,5
+2020 Summer Olympics,61,2020,Netherlands,NED,10,12,14,36
+2020 Summer Olympics,61,2020,Finland,FIN,0,0,2,2
+2004 Summer Olympics,26,2004,Austria,AUT,2,4,1,7
+1952 Summer Olympics,13,1952,Great Britain,GBR,1,2,8,11
+1968 Summer Olympics,17,1968,Italy,ITA,3,4,9,16
+1948 Summer Olympics,12,1948,United States,USA,38,27,19,84
+1980 Summer Olympics,20,1980,Spain,ESP,1,3,2,6
+1900 Summer Olympics,2,1900,Mixed team,MIX,1,2,3,6
+1980 Winter Olympics,41,1980,Norway,NOR,1,3,6,10
+1996 Summer Olympics,24,1996,Ireland,IRL,3,0,1,4
+1968 Winter Olympics,38,1968,Netherlands,NED,3,3,3,9
+1908 Summer Olympics,5,1908,Bohemia,BOH,0,0,2,2
+1980 Winter Olympics,41,1980,Italy,ITA,0,2,0,2
+1992 Winter Olympics,44,1992,Luxembourg,LUX,0,2,0,2
+1988 Summer Olympics,22,1988,Suriname,SUR,1,0,0,1
+1998 Winter Olympics,46,1998,Ukraine,UKR,0,1,0,1
+2000 Summer Olympics,25,2000,Islamic Republic of Iran,IRI,3,0,1,4
+2020 Summer Olympics,61,2020,Denmark,DEN,3,4,4,11
+1896 Summer Olympics,1,1896,Switzerland,SUI,1,2,0,3
+2008 Summer Olympics,53,2008,Panama,PAN,1,0,0,1
+1996 Summer Olympics,24,1996,India,IND,0,0,1,1
+2020 Summer Olympics,61,2020,Italy,ITA,10,10,20,40
+1924 Summer Olympics,8,1924,Argentina,ARG,1,3,2,6
+2004 Summer Olympics,26,2004,Slovakia,SVK,2,2,2,6
+2008 Summer Olympics,53,2008,France,FRA,7,16,20,43
+1960 Summer Olympics,15,1960,Ethiopia,ETH,1,0,0,1
+1964 Summer Olympics,16,1964,Argentina,ARG,0,1,0,1
+1920 Summer Olympics,7,1920,Norway,NOR,13,10,9,32
+1948 Summer Olympics,12,1948,Islamic Republic of Iran,IRI,0,0,1,1
+2012 Summer Olympics,54,2012,Cuba,CUB,5,3,7,15
+1994 Winter Olympics,45,1994,Austria,AUT,2,3,4,9
+1996 Summer Olympics,24,1996,Serbia and Montenegro,SCG,1,1,2,4
+1948 Winter Olympics,33,1948,Finland,FIN,1,3,2,6
+1976 Summer Olympics,19,1976,Thailand,THA,0,0,1,1
+1992 Summer Olympics,23,1992,Philippines,PHI,0,0,1,1
+1984 Summer Olympics,21,1984,Portugal,POR,1,0,2,3
+1988 Summer Olympics,22,1988,Kenya,KEN,5,2,2,9
+1912 Summer Olympics,6,1912,Canada,CAN,3,2,3,8
+1920 Summer Olympics,7,1920,Denmark,DEN,3,9,1,13
+1956 Summer Olympics,14,1956,Sweden,SWE,5,5,6,16
+1920 Summer Olympics,7,1920,Japan,JPN,0,2,0,2
+1948 Summer Olympics,12,1948,Trinidad and Tobago,TTO,0,1,0,1
+1906 Intercalated,4,1906,France,FRA,15,9,16,40
+1988 Summer Olympics,22,1988,Philippines,PHI,0,0,1,1
+1992 Summer Olympics,23,1992,Mexico,MEX,0,1,0,1
+1924 Summer Olympics,8,1924,Poland,POL,0,1,1,2
+2022 Winter Olympics,62,2022,Japan,JPN,3,6,9,18
+1952 Summer Olympics,13,1952,Trinidad and Tobago,TTO,0,0,2,2
+1928 Winter Olympics,30,1928,Belgium,BEL,0,0,1,1
+2012 Summer Olympics,54,2012,United States,USA,48,26,30,104
+1996 Summer Olympics,24,1996,Denmark,DEN,4,1,1,6
+2010 Winter Olympics,57,2010,Switzerland,SUI,6,0,3,9
+1988 Summer Olympics,22,1988,Bulgaria,BUL,10,12,13,35
+2016 Summer Olympics,59,2016,Vietnam,VIE,1,1,0,2
+2012 Summer Olympics,54,2012,Romania,ROU,2,4,1,7
+1908 Summer Olympics,5,1908,Greece,GRE,0,3,1,4
+1972 Winter Olympics,39,1972,Japan,JPN,1,1,1,3
+1928 Summer Olympics,9,1928,Chile,CHI,0,1,0,1
+1980 Summer Olympics,20,1980,Poland,POL,3,14,15,32
+2010 Winter Olympics,57,2010,Slovenia,SLO,0,2,1,3
+1956 Summer Olympics,14,1956,Republic of Korea,KOR,0,1,1,2
+1948 Summer Olympics,12,1948,Cuba,CUB,0,1,0,1
+1956 Winter Olympics,35,1956,Germany,GER,1,0,1,2
+2004 Summer Olympics,26,2004,Nigeria,NGR,0,0,2,2
+1932 Summer Olympics,10,1932,Uruguay,URU,0,0,1,1
+1996 Summer Olympics,24,1996,Slovenia,SLO,0,2,0,2
+2004 Summer Olympics,26,2004,Dominican Republic,DOM,1,0,0,1
+1936 Winter Olympics,32,1936,France,FRA,0,0,1,1
+1972 Summer Olympics,18,1972,Nigeria,NGR,0,0,1,1
+2020 Summer Olympics,61,2020,Qatar,QAT,2,0,1,3
+1998 Winter Olympics,46,1998,Czechia,CZE,1,1,1,3
+2016 Summer Olympics,59,2016,Lithuania,LTU,0,1,3,4
+2000 Summer Olympics,25,2000,Costa Rica,CRC,0,0,2,2
+1988 Summer Olympics,22,1988,Brazil,BRA,1,2,3,6
+1948 Summer Olympics,12,1948,Sri Lanka,SRI,0,1,0,1
+2000 Summer Olympics,25,2000,The Bahamas,BAH,2,0,1,3
+1992 Summer Olympics,23,1992,Sweden,SWE,1,7,4,12
+2016 Summer Olympics,59,2016,Armenia,ARM,1,3,0,4
+1964 Winter Olympics,37,1964,Czechoslovakia,TCH,0,0,1,1
+1964 Winter Olympics,37,1964,France,FRA,3,4,0,7
+1964 Summer Olympics,16,1964,Ethiopia,ETH,1,0,0,1
+2008 Summer Olympics,53,2008,Great Britain,GBR,19,13,19,51
+2008 Summer Olympics,53,2008,Republic of Korea,KOR,13,11,8,32
+1952 Summer Olympics,13,1952,Switzerland,SUI,2,6,6,14
+2004 Summer Olympics,26,2004,Finland,FIN,0,2,0,2
+1952 Summer Olympics,13,1952,Venezuela,VEN,0,0,1,1
+2022 Winter Olympics,62,2022,People's Republic of China,CHN,9,4,2,15
+1988 Summer Olympics,22,1988,Romania,ROU,7,11,6,24
+2016 Summer Olympics,59,2016,Niger,NIG,0,1,0,1
+1896 Summer Olympics,1,1896,Great Britain,GBR,2,3,2,7
+1936 Summer Olympics,11,1936,Argentina,ARG,2,2,3,7
+2020 Summer Olympics,61,2020,Hungary,HUN,6,7,7,20
+1936 Summer Olympics,11,1936,Mexico,MEX,0,0,3,3
+1984 Summer Olympics,21,1984,New Zealand,NZL,8,1,2,11
+1980 Summer Olympics,20,1980,Austria,AUT,1,2,1,4
+2000 Summer Olympics,25,2000,Democratic People's Republic of Korea,PRK,0,1,3,4
+2014 Winter Olympics,58,2014,France,FRA,4,4,7,15
+2014 Winter Olympics,58,2014,Slovenia,SLO,2,2,4,8
+1972 Summer Olympics,18,1972,Romania,ROU,3,6,7,16
+2010 Winter Olympics,57,2010,Croatia,CRO,0,2,1,3
+1972 Summer Olympics,18,1972,India,IND,0,0,1,1
+1960 Winter Olympics,36,1960,Italy,ITA,0,0,1,1
+1952 Summer Olympics,13,1952,Finland,FIN,6,3,13,22
+1956 Summer Olympics,14,1956,Bulgaria,BUL,1,3,1,5
+1904 Summer Olympics,3,1904,Germany,GER,5,4,5,14
+1992 Summer Olympics,23,1992,Türkiye,TUR,2,2,2,6
+1960 Summer Olympics,15,1960,Brazil,BRA,0,0,2,2
+1988 Winter Olympics,43,1988,Finland,FIN,4,1,2,7
+1956 Summer Olympics,14,1956,Mexico,MEX,1,0,1,2
+2020 Summer Olympics,61,2020,Bahrain,BRN,0,1,0,1
+1976 Winter Olympics,40,1976,Finland,FIN,2,4,1,7
+1994 Winter Olympics,45,1994,Netherlands,NED,0,1,3,4
+2012 Summer Olympics,54,2012,Guatemala,GUA,0,1,0,1
+1992 Summer Olympics,23,1992,Latvia,LAT,0,2,1,3
+1996 Summer Olympics,24,1996,Russian Federation,RUS,26,21,16,63
+2008 Summer Olympics,53,2008,Colombia,COL,0,2,1,3
+1968 Summer Olympics,17,1968,Mongolia,MGL,0,1,3,4
+2004 Summer Olympics,26,2004,Cameroon,CMR,1,0,0,1
+2020 Summer Olympics,61,2020,Bulgaria,BUL,3,1,2,6
+1920 Summer Olympics,7,1920,Estonia,EST,1,2,0,3
+2012 Summer Olympics,54,2012,Russian Federation,RUS,18,21,26,65
+1984 Summer Olympics,21,1984,Pakistan,PAK,1,0,0,1
+1976 Winter Olympics,40,1976,Liechtenstein,LIE,0,0,2,2
+2020 Summer Olympics,61,2020,Colombia,COL,0,4,1,5
+1932 Summer Olympics,10,1932,South Africa,RSA,2,0,3,5
+2016 Summer Olympics,59,2016,Islamic Republic of Iran,IRI,3,1,4,8
+2014 Winter Olympics,58,2014,Republic of Korea,KOR,3,3,2,8
+2004 Summer Olympics,26,2004,Romania,ROU,8,5,6,19
+1932 Winter Olympics,31,1932,United States,USA,6,4,2,12
+1948 Winter Olympics,33,1948,Norway,NOR,4,3,3,10
+2020 Summer Olympics,61,2020,Switzerland,SUI,3,4,6,13
+2012 Summer Olympics,54,2012,Croatia,CRO,3,1,2,6
+1968 Summer Olympics,17,1968,Jamaica,JAM,0,1,0,1
+1992 Summer Olympics,23,1992,Canada,CAN,7,4,7,18
+2008 Summer Olympics,53,2008,Germany,GER,16,11,14,41
+1968 Summer Olympics,17,1968,Austria,AUT,0,2,2,4
+2004 Summer Olympics,26,2004,Canada,CAN,3,6,3,12
+2020 Summer Olympics,61,2020,Romania,ROU,1,3,0,4
+2008 Summer Olympics,53,2008,Democratic People's Republic of Korea,PRK,2,2,2,6
+1968 Summer Olympics,17,1968,Belgium,BEL,0,1,1,2
+1952 Summer Olympics,13,1952,Portugal,POR,0,0,1,1
+1992 Summer Olympics,23,1992,The Bahamas,BAH,0,0,1,1
+1988 Winter Olympics,43,1988,Japan,JPN,0,0,1,1
+1932 Summer Olympics,10,1932,Great Britain,GBR,5,7,5,17
+1988 Summer Olympics,22,1988,Mexico,MEX,0,0,2,2
+1964 Winter Olympics,37,1964,Soviet Union,URS,11,8,6,25
+1984 Winter Olympics,42,1984,Finland,FIN,4,3,6,13
+1952 Summer Olympics,13,1952,Norway,NOR,3,2,0,5
+1948 Summer Olympics,12,1948,Hungary,HUN,10,5,13,28
+1988 Summer Olympics,22,1988,Türkiye,TUR,1,1,0,2
+2004 Summer Olympics,26,2004,Morocco,MAR,2,1,0,3
+1968 Winter Olympics,38,1968,Switzerland,SUI,0,2,4,6
+2016 Summer Olympics,59,2016,Netherlands,NED,8,7,4,19
+1980 Summer Olympics,20,1980,Mexico,MEX,0,1,3,4
+1988 Winter Olympics,43,1988,Austria,AUT,3,5,2,10
+1956 Winter Olympics,35,1956,Switzerland,SUI,3,2,1,6
+1976 Summer Olympics,19,1976,Soviet Union,URS,49,41,35,125
+1980 Summer Olympics,20,1980,Great Britain,GBR,5,7,9,21
+1936 Winter Olympics,32,1936,Canada,CAN,0,1,0,1
+1988 Summer Olympics,22,1988,Soviet Union,URS,55,31,46,132
+1972 Summer Olympics,18,1972,Czechoslovakia,TCH,2,4,2,8
+2012 Summer Olympics,54,2012,Mexico,MEX,1,3,4,8
+2000 Summer Olympics,25,2000,Serbia and Montenegro,SCG,1,1,1,3
+1936 Summer Olympics,11,1936,United States,USA,24,21,12,57
+1948 Summer Olympics,12,1948,Puerto Rico,PUR,0,0,1,1
+2000 Summer Olympics,25,2000,Kingdom of Saudi Arabia,KSA,0,1,1,2
+1964 Summer Olympics,16,1964,Denmark,DEN,2,1,3,6
+1928 Winter Olympics,30,1928,Germany,GER,0,0,1,1
+1980 Summer Olympics,20,1980,Hungary,HUN,7,10,15,32
+1956 Summer Olympics,14,1956,Italy,ITA,8,6,8,22
+1976 Summer Olympics,19,1976,Japan,JPN,9,6,10,25
+1988 Summer Olympics,22,1988,Spain,ESP,1,1,2,4
+1960 Summer Olympics,15,1960,Pakistan,PAK,1,0,1,2
+2004 Summer Olympics,26,2004,Estonia,EST,0,1,2,3
+1960 Summer Olympics,15,1960,Iraq,IRQ,0,0,1,1
+2008 Summer Olympics,53,2008,Israel,ISR,0,0,1,1
+1932 Winter Olympics,31,1932,Norway,NOR,3,4,3,10
+1964 Summer Olympics,16,1964,Trinidad and Tobago,TTO,0,1,2,3
+1972 Summer Olympics,18,1972,Netherlands,NED,3,1,1,5
+1988 Summer Olympics,22,1988,Finland,FIN,1,1,2,4
+2020 Summer Olympics,61,2020,Dominican Republic,DOM,0,3,2,5
+2006 Winter Olympics,49,2006,France,FRA,3,2,4,9
+2002 Winter Olympics,47,2002,Estonia,EST,1,1,1,3
+1980 Winter Olympics,41,1980,Czechoslovakia,TCH,0,0,1,1
+1928 Summer Olympics,9,1928,France,FRA,7,12,6,25
+1936 Summer Olympics,11,1936,Great Britain,GBR,4,7,3,14
+2012 Summer Olympics,54,2012,Mongolia,MGL,0,2,3,5
+1936 Summer Olympics,11,1936,Japan,JPN,6,4,10,20
+1996 Summer Olympics,24,1996,Hungary,HUN,7,4,10,21
+1976 Summer Olympics,19,1976,Netherlands,NED,0,2,3,5
+1936 Winter Olympics,32,1936,Finland,FIN,1,2,3,6
+1956 Summer Olympics,14,1956,Islamic Republic of Iran,IRI,2,2,1,5
+1998 Winter Olympics,46,1998,Italy,ITA,2,6,2,10
+1928 Summer Olympics,9,1928,Austria,AUT,3,0,1,4
+1992 Winter Olympics,44,1992,Italy,ITA,4,6,4,14
+2000 Summer Olympics,25,2000,Ireland,IRL,0,1,0,1
+2020 Summer Olympics,61,2020,Norway,NOR,4,2,2,8
+1964 Summer Olympics,16,1964,Uruguay,URU,0,0,1,1
+1956 Summer Olympics,14,1956,Türkiye,TUR,3,2,2,7
+2016 Summer Olympics,59,2016,Poland,POL,2,3,6,11
+2014 Winter Olympics,58,2014,Sweden,SWE,2,7,6,15
+1932 Summer Olympics,10,1932,Finland,FIN,5,8,12,25
+2012 Summer Olympics,54,2012,Morocco,MAR,0,0,1,1
+2008 Summer Olympics,53,2008,Togo,TOG,0,0,1,1
+2000 Summer Olympics,25,2000,Trinidad and Tobago,TTO,0,1,1,2
+1928 Winter Olympics,30,1928,Finland,FIN,2,1,1,4
+2020 Summer Olympics,61,2020,South Africa,RSA,1,2,0,3
+1968 Summer Olympics,17,1968,Poland,POL,5,2,11,18
+1900 Summer Olympics,2,1900,Cuba,CUB,1,1,0,2
+2008 Summer Olympics,53,2008,Serbia,SRB,0,1,2,3
+1908 Summer Olympics,5,1908,Norway,NOR,2,3,3,8
+2004 Summer Olympics,26,2004,Norway,NOR,5,0,1,6
+1968 Summer Olympics,17,1968,Türkiye,TUR,2,0,0,2
+1912 Summer Olympics,6,1912,France,FRA,7,5,3,15
+2004 Summer Olympics,26,2004,Latvia,LAT,0,4,0,4
+1988 Winter Olympics,43,1988,Canada,CAN,0,2,3,5
+1976 Summer Olympics,19,1976,Brazil,BRA,0,0,2,2
+1956 Summer Olympics,14,1956,New Zealand,NZL,2,0,0,2
+1932 Summer Olympics,10,1932,Latvia,LAT,0,1,0,1
+1968 Winter Olympics,38,1968,Romania,ROU,0,0,1,1
+1972 Winter Olympics,39,1972,Norway,NOR,2,5,5,12
+2000 Summer Olympics,25,2000,Russian Federation,RUS,32,28,29,89
+2004 Summer Olympics,26,2004,Egypt,EGY,1,1,3,5
+2000 Summer Olympics,25,2000,France,FRA,13,14,11,38
+2012 Summer Olympics,54,2012,Qatar,QAT,0,1,1,2
+1952 Winter Olympics,34,1952,France,FRA,0,0,1,1
+1964 Summer Olympics,16,1964,Netherlands,NED,2,4,4,10
+1976 Summer Olympics,19,1976,Democratic People's Republic of Korea,PRK,1,1,0,2
+2020 Summer Olympics,61,2020,Czechia,CZE,4,4,3,11
+1984 Winter Olympics,42,1984,Sweden,SWE,4,2,2,8
+1900 Summer Olympics,2,1900,Bohemia,BOH,0,1,1,2
+2010 Winter Olympics,57,2010,United States,USA,9,15,13,37
+1992 Winter Olympics,44,1992,Czechoslovakia,TCH,0,0,3,3
+1952 Summer Olympics,13,1952,Netherlands,NED,0,5,0,5
+2020 Summer Olympics,61,2020,Australia,AUS,17,7,22,46
+1976 Summer Olympics,19,1976,Sweden,SWE,4,1,0,5
+1984 Summer Olympics,21,1984,Chinese Taipei,TPE,0,0,1,1
+2004 Summer Olympics,26,2004,Cuba,CUB,9,7,11,27
+2014 Winter Olympics,58,2014,Kazakhstan,KAZ,0,0,1,1
+1936 Summer Olympics,11,1936,India,IND,1,0,0,1
+1972 Summer Olympics,18,1972,Pakistan,PAK,0,1,0,1
+1972 Summer Olympics,18,1972,Ethiopia,ETH,0,0,2,2
+1968 Winter Olympics,38,1968,Norway,NOR,6,6,2,14
+1996 Summer Olympics,24,1996,Morocco,MAR,0,0,2,2
+2006 Winter Olympics,49,2006,Japan,JPN,1,0,0,1
+1988 Summer Olympics,22,1988,Austria,AUT,1,0,0,1
+1988 Summer Olympics,22,1988,Indonesia,INA,0,1,0,1
+1972 Summer Olympics,18,1972,Yugoslavia,YUG,2,1,2,5
+2000 Summer Olympics,25,2000,Spain,ESP,3,3,5,11
+1896 Summer Olympics,1,1896,Germany,GER,6,5,2,13
+1936 Winter Olympics,32,1936,Norway,NOR,7,5,3,15
+1984 Winter Olympics,42,1984,Czechoslovakia,TCH,0,2,4,6
+2020 Summer Olympics,61,2020,Slovenia,SLO,3,1,1,5
+1992 Summer Olympics,23,1992,Mongolia,MGL,0,0,2,2
+1996 Summer Olympics,24,1996,Greece,GRE,4,4,0,8
+2020 Summer Olympics,61,2020,Spain,ESP,3,8,6,17
+1960 Summer Olympics,15,1960,Canada,CAN,0,1,0,1
+1994 Winter Olympics,45,1994,People's Republic of China,CHN,0,1,2,3
+2008 Summer Olympics,53,2008,Belarus,BLR,3,4,7,14
+1936 Summer Olympics,11,1936,New Zealand,NZL,1,0,0,1
+2012 Summer Olympics,54,2012,Cyprus,CYP,0,1,0,1
+1964 Winter Olympics,37,1964,Austria,AUT,4,5,3,12
+1968 Summer Olympics,17,1968,Soviet Union,URS,29,32,30,91
+2014 Winter Olympics,58,2014,United States,USA,9,9,10,28
+1992 Winter Olympics,44,1992,Sweden,SWE,1,0,3,4
+1976 Winter Olympics,40,1976,Soviet Union,URS,13,6,8,27
+1984 Summer Olympics,21,1984,Austria,AUT,1,1,1,3
+1972 Summer Olympics,18,1972,Democratic People's Republic of Korea,PRK,1,1,3,5
+1976 Summer Olympics,19,1976,East Germany,GDR,40,25,25,90
+1976 Summer Olympics,19,1976,West Germany,FRG,10,12,17,39
+1928 Winter Olympics,30,1928,Czechoslovakia,TCH,0,0,1,1
+1928 Winter Olympics,30,1928,Norway,NOR,6,4,5,15
+1920 Summer Olympics,7,1920,Czechoslovakia,TCH,0,0,2,2
+1972 Summer Olympics,18,1972,Spain,ESP,0,0,1,1
+1932 Summer Olympics,10,1932,Ireland,IRL,2,0,0,2
+1924 Summer Olympics,8,1924,Australia,AUS,3,1,2,6
+1920 Summer Olympics,7,1920,Sweden,SWE,19,20,25,64
+2006 Winter Olympics,49,2006,Croatia,CRO,1,2,0,3
+1932 Winter Olympics,31,1932,Finland,FIN,1,1,1,3
+1976 Summer Olympics,19,1976,Puerto Rico,PUR,0,0,1,1
+1992 Summer Olympics,23,1992,Slovenia,SLO,0,0,2,2
+1896 Summer Olympics,1,1896,Greece,GRE,10,18,19,47
+2016 Summer Olympics,59,2016,Ireland,IRL,0,2,0,2
+1972 Summer Olympics,18,1972,Colombia,COL,0,1,2,3
+2012 Summer Olympics,54,2012,Thailand,THA,0,2,2,4
+1976 Winter Olympics,40,1976,Austria,AUT,2,2,2,6
+1972 Summer Olympics,18,1972,West Germany,FRG,13,11,16,40
+2020 Summer Olympics,61,2020,Grenada,GRN,0,0,1,1
+1908 Summer Olympics,5,1908,Australasia,ANZ,1,2,2,5
+1972 Summer Olympics,18,1972,Cuba,CUB,3,1,4,8
+1988 Summer Olympics,22,1988,Italy,ITA,6,4,4,14
+2008 Summer Olympics,53,2008,Bulgaria,BUL,1,1,3,5
+2000 Summer Olympics,25,2000,Argentina,ARG,0,2,2,4
+2008 Summer Olympics,53,2008,Canada,CAN,3,9,8,20
+1968 Summer Olympics,17,1968,Cuba,CUB,0,4,0,4
+1996 Summer Olympics,24,1996,Nigeria,NGR,2,1,3,6
+1992 Winter Olympics,44,1992,Switzerland,SUI,1,0,2,3
+2000 Summer Olympics,25,2000,Uzbekistan,UZB,1,1,2,4
+1988 Summer Olympics,22,1988,Switzerland,SUI,0,2,2,4
+1948 Summer Olympics,12,1948,Switzerland,SUI,5,12,6,23
+2000 Summer Olympics,25,2000,Netherlands,NED,12,9,4,25
+2008 Summer Olympics,53,2008,Greece,GRE,0,2,1,3
+1968 Summer Olympics,17,1968,Czechoslovakia,TCH,7,2,4,13
+1976 Summer Olympics,19,1976,United States,USA,34,35,25,94
+1980 Summer Olympics,20,1980,Guyana,GUY,0,0,1,1
+2000 Summer Olympics,25,2000,Kazakhstan,KAZ,3,4,0,7
+2008 Summer Olympics,53,2008,Mauritius,MRI,0,0,1,1
+1960 Summer Olympics,15,1960,New Zealand,NZL,2,0,1,3
+2004 Summer Olympics,26,2004,Japan,JPN,16,9,12,37
+1980 Winter Olympics,41,1980,Switzerland,SUI,1,1,3,5
+1948 Summer Olympics,12,1948,Sweden,SWE,17,11,18,46
+2016 Summer Olympics,59,2016,Belarus,BLR,1,4,4,9
+1936 Summer Olympics,11,1936,Belgium,BEL,0,0,3,3
+2010 Winter Olympics,57,2010,Italy,ITA,1,1,3,5
+1968 Winter Olympics,38,1968,Finland,FIN,1,2,2,5
+1948 Winter Olympics,33,1948,Austria,AUT,1,3,4,8
+2004 Summer Olympics,26,2004,Czechia,CZE,1,3,5,9
+2020 Summer Olympics,61,2020,Great Britain,GBR,22,20,22,64
+1952 Summer Olympics,13,1952,Mexico,MEX,0,1,0,1
+1960 Summer Olympics,15,1960,Switzerland,SUI,0,3,3,6
+2016 Summer Olympics,59,2016,Malaysia,MAS,0,4,1,5
+1960 Winter Olympics,36,1960,Sweden,SWE,3,2,2,7
+1996 Summer Olympics,24,1996,Azerbaijan,AZE,0,1,0,1
+2020 Summer Olympics,61,2020,Kingdom of Saudi Arabia,KSA,0,1,0,1
+1980 Summer Olympics,20,1980,Brazil,BRA,2,0,2,4
+2008 Summer Olympics,53,2008,Kyrgyzstan,KGZ,0,1,2,3
+2010 Winter Olympics,57,2010,France,FRA,2,3,6,11
+1996 Summer Olympics,24,1996,France,FRA,15,7,15,37
