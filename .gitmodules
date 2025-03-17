@@ -28,3 +28,6 @@
 [submodule "CS301 Embedded System and Microcomputer Principle/Project"]
 	path = CS301 Embedded System and Microcomputer Principle/Project
 	url = git@github.com:SUSTech-ISACG-Association/ShinxSU7.git
+[submodule "CS304 Software Engineering/Teedy"]
+	path = CS304 Software Engineering/Teedy
+	url = git@github.com:chanbengz/Teedy.git
