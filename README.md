@@ -8,7 +8,7 @@ Course Notes and Materials for the Computer Science @SUSTech.
 
 </div>
 
-## Intro
+## What'is it?
 
 The repo records my every notes, materials and codes of the courses that I've taken seriously. I might not express my solutions well so if you have problems understanding my writing, please feel free to raise an Issue or drop me a email via `chanben04gz [AT] gmail [DOT] com`. It's much appreciated if you'd like to contribute to this repo.
 
@@ -52,10 +52,6 @@ Mostly, assignments, notes and reports are written in Typst or $\LaTeX$.
 The notes can be viewed on my [blog](https://blog.benx.dev). ~~I haven't written any, though.~~
 
 ## How to Learn with the repo
-
-> [!NOTE] 
->
-> If you'd like to download folder(s) of specific course, [Downgit](https://downgit.benx.dev) might be useful.
 
 It depends on you, trust yourself. As a little tip, you can preview the slides before the semester starts so as to have a general idea of the course, or even better, you will master the course if you're a quick learner. Also, you can refer to the solutions to check if you're right or not, and review the exams to see if you've mastered the course.
 
