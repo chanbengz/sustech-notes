@@ -21,7 +21,7 @@
 | コース                                                       | 講師          | 学期      |
 | ------------------------------------------------------------ | ------------- | --------- |
 | [CS104 数理論理学入門](./CS104%20Intro%20to%20Mathematical%20Logic) | 何 明昕 | 2023 春 |
-| [CS109 コンピュータプログラミングの基礎（Java A）](./CS109%20Intro%20to%20Programming%20in%20Java) | 李卓钊        | 2022 秋 |
+| [CS109 コンピュータプログラミングの基礎（Java A）](./CS109%20Intro%20to%20Programming%20in%20Java) | 李 卓钊        | 2022 秋 |
 | [CS201 離散数学](./CS201%20Discrete%20Math) | 陈 杉 | 2023 秋 |
 | [CS202 コンピュータ構成原理](./CS202%20Computer%20Organization) | 白 雨卉        | 2024 春 |
 | [CS203 データ構造とアルゴリズム分析（DSAA）](./CS203%20Data%20Structures%20and%20Algorithm%20Analysis) | 唐 博          | 2023 秋 |
@@ -34,7 +34,7 @@
 | [CS305 コンピュータネットワーク](./CS305%20Computer%20Networks) | 唐 茗 | 2023 秋 |
 | [CS307 データベース原理](./CS307%20Database%20System) | 程 然 | 2023 秋 |
 | [CS309 オブジェクト指向分析と設計（OOAD）](./CS309%20Object-Oriented%20Analysis%20and%20Design) | 张 煜群        | 2024 秋 |
-| [CS321 グループプロジェクト](./CS321%20Group%20Project) | 张 锋巍 | 2024 秋 |
+| [CS321/326/413 グループプロジェクト](./CS321%20Group%20Project) | 张 锋巍 | 2024 秋 |
 | [CS323 コンパイラ原理](./CS323%20Compiler%20Principles) | 刘 烨庞 | 2024 秋 |
 | [CSE5014 暗号とネットワークセキュリティ](./CSE5014%20Cryptography%20and%20Network%20Security) | 王 琦          | 2024 春 |
 | [SS149 近代西洋哲学](./SS149%20Early%20Modern%20Western%20Philosophy/) | 小田 隆晴      | 2024 春 |

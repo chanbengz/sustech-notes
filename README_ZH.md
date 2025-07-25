@@ -35,7 +35,7 @@
 | [CS305 计算机网络](./CS305%20Computer%20Networks)            | 唐茗          | 2023 秋季 |
 | [CS307 数据库原理](./CS307%20Database%20System)              | 程然          | 2023 秋季 |
 | [CS309 面向对象分析与设计（OOAD）](./CS309%20Object-Oriented%20Analysis%20and%20Design) | 张煜群        | 2024 秋季 |
-| [CS321 创新实践](./CS321%20Group%20Project)                  | 张锋巍        | 2024 秋季 |
+| [CS321/326/413 创新实践](./CS321%20Group%20Project)                  | 张锋巍        | 2024 秋季 |
 | [CS323 编译原理](./CS323%20Compiler%20Principles)            | 刘烨庞        | 2024 秋季 |
 | [CSE5014 密码学与网络安全](./CSE5014%20Cryptography%20and%20Network%20Security) | 王琦          | 2024 春季 |
 | [SS149 近代西方哲学](./SS149%20Early%20Modern%20Western%20Philosophy/) | 小田隆晴      | 2024 春季 |

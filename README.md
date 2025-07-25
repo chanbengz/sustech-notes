@@ -34,7 +34,7 @@ The repo contains the following courses for now
 | [CS305 Computer Networks](./CS305%20Computer%20Networks) | Ming Tang | Fall 2023 |
 | [CS307 Database System](./CS307%20Database%20System) | Ran Cheng | Fall 2023 |
 | [CS309 Object-Oriented Analysis and Design](./CS309%20Object-Oriented%20Analysis%20and%20Design) | Yuqun Zhang | Fall 2024 |
-| [CS321 Group Project](./CS321%20Group%20Project) | Fengwei Zhang | Fall 2024 |
+| [CS321/326/413 Group Project](./CS321%20Group%20Project) | Fengwei Zhang | Fall 2024 |
 | [CS323 Compiler Principles](./CS323%20Compiler%20Principles) | Yepang Liu | Fall 2024 |
 | [CSE5014 Cryptography and Network Security](./CSE5014%20Cryptography%20and%20Network%20Security) | Qi Wang | Spring 2024 |
 | [SS149 Early Modern Western Philosophy](./SS149%20Early%20Modern%20Western%20Philosophy/) | Takaharu Oda | Spring 2024 |
